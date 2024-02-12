@@ -1,0 +1,1973 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+                                                                                                                   
+ 
+ 
+ 
+i-Apply Loan Origination Solution
+ 
+TECHNICAL PROPOSAL
+ 
+KARAFARIN BANK
+
+ 
+ 
+ 
+Submission Date: 13th February 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Table of Contents
+EXECUTIVE SUMMARY
+1      RELATIONAL’S PROFILE
+1.1       Relational’s Background
+1.2       Business Needs
+1.3       Business Solutions
+1.3.1        i-Apply
+1.3.2        AroTRON
+1.3.3        LMS
+1.3.4        Decision Engine
+1.3.5        Data Standardization
+1.3.6        Segmentation
+1.4       Financials
+1.5       Organization
+2      RELATIONAL’S EXPERIENCE IN SIMILAR PROJECTS
+3      I-APPLY LOAN ORIGINATION
+3.1       Loan Application input
+3.2       Basic processing
+3.3       Document management
+3.4       Decision Engine
+3.5       Workflow management
+3.6       Interfaces
+3.7       Administration
+3.8       Messaging
+3.9       Reporting
+3.10     Commissions
+4      TECHNICAL ARCHITECTURE: HW & SYSTEM SW SPECIFICATIONS
+4.1       Proposed Environments – HW & System SW Specs
+4.2       Production Environment
+4.3       Disaster Recovery Site Environment
+4.4       Utilisation of Existing Infrastructure
+5      PROJECT IMPLEMENTATION METHΟDOLOGY & PHASES
+5.1       Project Management Methodology
+5.2       Project Implementation Phases
+5.3       Project Management Tool
+5.4       Change Management Process
+5.5       Process for Issues Resolution
+5.6       Project Risk Management
+5.7       Project Plan
+5.8       Testing Methodology
+5.9       Training & Knowledge Transfer
+6      PROJECT ORGANIZATION & GOVERNANCE
+6.1       The Steering Committee
+6.2       Project Team Roles
+6.3       KARAFARIN’s Project Team Roles
+6.4       Project Team CVs based on RFP template
+7      CUSTOMER SUPPORT & MAINTENANCE SERVICES
+7.1       Support Model – Help Desk
+7.2       Request for a New Feature
+7.3       Incident Management and SLA
+7.4       Release Management
+7.5       Version Management
+ 
+ 
+
+EXECUTIVE SUMMARY
+Relational Technology Societe Anonyme (S.A), hereafter referred as Relational, is in the pleasant position to submit a proposal to KARAFARIN BANK for a Loan Origination Solution based on its own solution namely i-Apply Loan Origination Solution. Considering the information that you have provided us and based on our experience in implementing similar projects in the Banking Sector, we are confident that we can fully cover the current and future business needs of your organization. 
+Relational was founded in Greece, in 1995. Through the years, the company grew to become one of the leading international Software Solutions providers with Customers footprint in 35 countries within EMEA. Offering a wide range of business-class software solutions and addressing core industries such as banking, telcos, retail and government sector, Relational proudly serves over 100 corporate customers. More specifically, in the banking sector, its clientele consists of more than 60 financial institutions across EMEA, with over 50.000 users.
+The headquarters and global R&D teams are based in Athens, which is nowadays an international center of excellence for many, globally known IT companies. Relational also has offices in Romania and Kenya as well as local presence in UK and Dubai. 
+Relational has built profound know-how in the areas of Credit Origination, Customer Onboarding & Know-Your Customer, Debt Management, Collections & Recoveries of NPLs, Loan Management, Segmentation, Data Management, Analytics, Business Service Management, specialized banking applications and technologies used in the financial services market for more than twenty years. More specifically, in the Banking Sector, Relational has successfully implemented various projects in banks of several sizes in Europe, Middle East and Africa:
+·       Credit Origination, Customer Onboarding & KYC
+o   Centenary Bank (Uganda)
+o   Pride Microfinance (Uganda)
+o   Housing Finance Bank (Kenya)
+o   Kenya Police Sacco 
+o   Mwalimu National SACCO (Kenya)
+o   STIMA SACCO (Kenya)
+o   Mwalimu Bank (Tanzania)
+o   Zambia National Building Society
+o   National Bank of Greece
+o   Eurobank Greece
+o   Attica Bank (Greece)
+o   United Bugarian Bank
+o   Eurobank Bulgaria AD
+o   Eurobank AD (Serbia)
+o   Banca Romaneasca (Romania)
+ 
+LOAN ORIGINATION SOLUTION
+i-Apply Loan Origination solution is architected as a set of cooperating engines that carry out all processing involved in the management of a loan application from its initiation until the disbursement of the loan amount in real time:
+a.     Workflow management (multiple work queues, dynamic workflows)
+b.     Business rules (multiple scorecards, credit policies implementation)
+c.      Document management (hard copy entry and archiving)
+d.     Reporting (on-line and batch)
+e.     Internal system communications (core banking system, CRM, card management, scorecard system, etc.)
+f.      External system Communication (credit bureaus)
+g.     User interface (PC, Web, mobile)
+ 
+IT ARCHITECTURE PRINCIPLES
+i-Apply adhereS to a set of fundamental IT design principles, ensuring a robust and versatile foundation for its operations:
+u  3-Tier Cloud-Ready Architecture: i-Apply boasts a sophisticated 3-tier cloud-ready architecture, combining top-tier security, scalability, and cutting-edge technology. This architectural approach guarantees the highest level of data security and the ability to seamlessly adapt to evolving technological landscapes.
+u  Enterprise Application Integration (EAI): Our system leverages state-of-the-art architecture with enhanced integration capabilities. Our seasoned team of consultants has successfully implemented interfaces with a diverse range of banking systems. This accomplishment ensures fully automated End-Of-Day (EOD) processes and real-time, Service-Oriented Architecture (SOA)-based interoperability as needed.
+u  Secure at the Core: i-Apply are the trusted platform of choice in numerous banks and institutions, undergoing regular audits by dedicated security teams. These assessments, along with our own penetration testing validate our adherence to stringent security guidelines, providing compliance to regulations.
+u  Multi-company Architecture: i-Apply's multi-company architecture is designed to empower organizations, especially those within a diverse financial group such as banks, leasing companies, real estate firms, insurance providers, with multi-national operations that share the same customers. This architecture fosters a unified customer-centric approach, ensuring a seamless and comprehensive view of each customer across all entities within the group and taking into account the importance of each customer’s relationships with all the companies of the group.
+u  Internationalization: i-Apply supportS multilingual user interfaces and multi-currency accounts.
+u  Communication Channel Integration: i-Apply excels in integrating with a wide array of communication channels, including, SMS, email, and standard mail. Additionally, our system seamlessly connects with external systems such as Credit Bureaus and Government Portals, facilitating the exchange of critical information typically related to court decisions and legal documents. This robust communication channel integration ensures efficient and synchronized interactions with customers and external entities while maintaining data accuracy and compliance.
+ 
+SKILLS AND EXPERIENCE in Customer Onboarding, Loan Origination 
+1. Relational’s significant know-how and expertise in the area of the requested applications. 
+The proposed Solution, called “i-Apply” counts more than twelve (12) years of maturity (180 man years of loan origination coding & consulting expertise to the Banking & Financial sectors) and continuous improvement adopting leading edge technologies. 
+Moreover, we have implemented successful similar projects for major Greek Banks and their subsidiaries in SE Europe and also for banks in Europe, Middle East and African countries.
+In addition, “i-Apply” has some unique characteristics: 
+o   It is ready to be installed.
+o   It covers all the RETAIL and CORPORATE credit lines such as: Consumer Loans, Credit Cards, Debit Cards, Dual Cards, Mortgages, Overdrafts, Leases, Letter of Guarantee, Small Business Loans, Corporate Financing etc.
+o   It WILL BE DELIVERED fully localized as per your specifications.
+o   We have the knowledge, the experience, the methodology, the adapted culture, the Business Know-How of the local markets, the structure and the mindset to carry out the implementation to your request without significant pains.
+o   Localization of the system is very simple and may be carried out even by the user organization on its own. The following localized versions are readily available: English, Romanian, Bulgarian, Polish, Serbian/Croatian, Arabic and Greek.
+o   We can assist you to identify easily and early causes that might disrupt either the implementation of the project or the business itself.
+ 
+2. Relational has a significant number of engineers capable of designing, implementing and supporting demanding application projects. For more than ten years, Relational has been undertaking numerous Loan origination project with varying requirements. As a result, a powerful and specialized team of more than 40 people has evolved, which has a proven ability to deliver, regardless of project size and complexity. In addition to the self-evident business know-how and technical expertise that has been gained, i-Apply team is one of the most suitable software teams for the requirements of your organization, because it develops and supports Loan Origination solutions for similar organizations, delivering software and providing support in more than 15 countries (Greece, Kenya, Uganda, Tanzania, Zambia, Bulgaria, Cyprus, Romania, Serbia, Albania, FYROM, Malta, Poland, Ukraine). 
+ 
+3. Relational holds ISO 9001:2015, ISO 27001:2013 & ISO 27701:2019 certifications.
+ 
+4. Relational is Gold Microsoft partner and the total solution offered is implemented in Microsoft technologies namely:
+a.     Virtualization: Microsoft HyperV
+b.     Server O/S: Microsoft Windows Server 2019 or newer
+c.      Database Server: Microsoft SQL Server 2019 or newer
+d.     Development Technology: Microsoft C#, ASP.NET, .NET MVC, .NET Web Api, Telerik Kendo UI
+e.     Ad-hoc Reporting Tool: Microsoft Reporting Services (SSRS)
+ 
+Our proposal remains valid for a period of 90 days from the closing date for the submission.
+ 
+Looking forward to your response, we remain at your disposal for any enquiry or clarification that you may have during the appraisal of our proposal.
+ 
+For Relational SA
+ 
+ 
+ 
+Ioannis Papaevgeniou
+President & CEO
+ 
+
+1       RELATIONAL’S PROFILE
+1.1    RELATIONAL’S BACKGROUND 
+Relational was founded in Greece, in 1995. Through the years, the company grew to become one of the leading international Software solutions providers with footprint in 35 countries within EMEA. Offering a wide range of business class software solutions and addressing core industries such as banking, telcos, retail and government sector, Relational proudly serves over 100 corporate customers. More specifically, in the banking sector, its clientele consists of more than 60 financial institutions across EMEA with over 50.000 users.
+It’s headquarters and global R&D teams are based in Athens, which is nowadays an international center of excellence for many, globally known IT companies. Relational also has offices in Romania and Kenya as well as local presence in UK, Zambia, and Dubai. 
+       
+
+ 
+Relational’s key milestones 
+
+ 
+Relational’s mission is to enable Enterprises to develop their competitive advantage by offering them innovative digital financial services and solutions. While the company focuses on software novelty, its customers are able to solely focus on digital customer-centric activities that will unlock considerable business growth. In 2021, the company invested more than €2.4m in R&D.
+Through own product development and via long-term partnerships, the company offers a large suite of business class solutions adding tangible value to its customers mission-critical business operations. More specifically, Relational delivers Credit Origination, Know-Your-Customer, Loan Management, Debt Management and Segmentation solutions through its own i-Apply, AroTRON, LMS and Decision Engine products. In addition, the company represents a number of international software vendors such as SAP, Informatica, Atlassian, BMC, Broadcom, Nlyte, Wolters Kluver allowing them to also offer Analytics, Data Management, Business Service Management, Workload Automation, Data Center Infrastructure Management, DevOps, Planning, Budgeting & Forecasting solutions.
+Relational is fully committed to always deliver in excellence, with dedication and strong sense of responsibility. Customer comes first. This is why the company has built a loyal, international clientele and has earned their trust as well as the respect of the market for its business ethics and integrity. 
+ 
+1.2   BUSINESS NEEDS
+As the financial landscape evolves, the need for an omni-channel origination and lending management solution has become increasingly crucial. Nowadays enterprises across all industries have increasing needs for business tools that will help them improve their operations in a cost effective and time efficient way. The need for such tools is imperative to allow them long term sustainable growth. Relational is offering a suite of solutions to address those needs such as Credit origination, Know-Your-Customer (KYC), Loan Management, Debt Management, Segmentation, Analytics, Data Management, Data Standardization, Business Service Management, Planning, Budgeting & Forecasting.
+ 
+Credit Origination
+Relational offers its own product called i-Apply (see section 2.3.2), which is a Credit Origination solution. It eliminates unnecessary paperwork and offers the ability to all financial institutions to reach their customers in every touch point, in every location, at any time. Its advanced web and security technologies allow companies to provide their products and services 24/7 on any device.
+ 
+Know-Your-Customer (KYC) – customer onboarding
+Relational's KYC solution streamlines the Digital Customer onboarding process with a workflow and rules-based approach. It performs several critical checks, including cross-referencing against sanction and PEP lists, database checks in the core banking system for details such as name, address, and telephone number, and extraction of customer data from external sources such as credit bureaus. The solution also enables batch uploading of external source borrowers list via CSV files, document uploads for legalization (such as proof of identity, proof of address, financial details, and telephone bills), and the setup of onboarding processes tailored to the customer type (individual or legal entity) and the assigned risk category. Sub-processes and fallback scenarios are also included in the setup to ensure a comprehensive and secure onboarding process.
+ 
+Loan Management 
+Loan Management System (see section 2.3.3.) is a loan administration solution helping servicers and credit purchasers to migrate and manage multiple loan portfolios of various creditors, in a single installation.  It increases productivity and reduces operational costs. Servicers and credit purchasers can work more efficiently and effectively thanks to tasks automation. 
+ 
+Debt Management
+AroTRON is Relational’s own product (see section 2.3.2.) and the best-in-class Debt Collection solution. It automates and streamlines collection, recoveries, litigation, administration, reporting and accounting functions, offering great results to any financial institution with debt management demanding needs. The organization can have an automatic update of the debtor’s record, a single view of the customer, a consistent and efficient administration of collection activities and full MIS reporting.
+ 
+Segmentation
+Segmenting customers is becoming crucial for every organization who wants to effectively meet its customers’ needs. Relational's Segmentation solution (see section 2.3.6.) allows organizations to target specific groups more precisely, align resources with segment requirements, improve accuracy, enhance brand perception, anticipate changes in target markets, and identify niche segments. This solution can be used for a wide variety of vertical markets, e.g. Banking-Acquisition (Customer retention, Customized offerings, Pre-approved offerings, Financial KPIs / Segment), Banking-Arrears (Early warnings, Compliance, Debt Arrangement Solutions, Collection strategies), TELCOs (Marketing campaigns, Customer loyalty), Retail (Promotion campaigns, Cross-sell / Upsell, Product / loyalty offerings, Ads, commercials, Credit Scoring / Early warnings), Public Sector (Citizen categorization, Tax optimization, Tax collections, Measurements).
+ 
+Analytics
+Analytics solutions can empower an organization to achieve remarkable results by allowing self-service access to relevant information by anyone within the organization. It is also helping business users transform their decision making by providing fact-based, quality information regardless of where the data resides. Relational represents and offers SAP products to provide such Business Intelligence solutions.
+ 
+Data Management 
+There is an increasing need for cloud Data management solutions that are truly cloud-first and cloud-native. Such solutions can connect, manage, and unify data across any multi-cloud or hybrid system, empowering enterprises to modernize and advance their data strategies. As Informatica’s Platinum partner for Greece, Cyprus, Romania, Bulgaria, and Moldova, Relational offers such solutions. The combination of Relational’s multiyear BI experience along with the unique functionality of Informatica Platform, allows them to offer Data Integration, Data Management, Data Quality, Data Governance, Data Security and Master Data Management solutions to any organization and to meet complex requirements and rules using the most modern standards, methods, and practices.
+ 
+Data Standardization
+Relational’s own Data Standardization solution (see section 2.3.5.) helps discover, cleanse, and unify successfully all customer data at any organization. With the usage of trusted dictionaries on different fields a company can compare discovered customer data against these dictionaries and create the final customer records with correct and unique data for names, surnames, addresses, post codes, areas, cities, telephone numbers (land lines and mobiles), email addresses, etc.
+This functionality can be adapted once (e.g. for migration reasons) or frequently on standard time frames cleansing all new entries of customer data after the first cleansing. The biggest benefit of Data Standardization usage is that every organization can run successfully marketing campaigns, reduce unsuccessful postal letters and as a result save money, contact customers with the proper data, discover areas of activities and extract valuable insights from cleansed data. This solution runs automatically and gives the ability for manual correctness. It is easily adapted by any organization of any sector offering extremely fast results. It can also be used through API making unique, trustful, and useful customer data. 
+ 
+Business Service Management
+Business Service Management (BSM) helps IT focus and utilize those elements that support and promote business goals.  The BSM approach reduces the costs and risks associated with operational failure and builds a stable IT infrastructure, which supports the development and flexibility of the business.  With BSM, companies acquire the possibility to automate their data center, improve their service support procedures and respond to regulatory changes. Through BSM, the convergence of IT infrastructure and business goals is increased and the maximum contribution of IT to business success is ensured. Relational represents and offers BMC software products to provide such Business Service Management solutions.
+ 
+Planning, Budgeting & Forecasting
+Planning, budgeting, and forecasting capabilities with management and legal consolidation functionality in a single application, help enterprises shorten their budget cycle time, close the books faster and ensure compliance with regulatory and financial standards. Relational represents and offers Tagetik software products to provide such Planning, Budgeting & Forecasting solutions.
+ 
+ 
+ 
+ 
+1.3   BUSINESS SOLUTIONS
+Through own product development, Relational offers a large portfolio of business class software solutions helping its customers achieve tangible results to underpin long term, sustainable business growth. With end-to-end solutions, the company can address most industries worldwide and successfully meet business needs such as Credit Origination, Know-Your-Customer, Loan Management, Debt Management, Segmentation and Data Standardization. 
+ 
+1.3.1     I-APPLY
+i-Apply is a credit origination software system that allows end customers to apply for various financial products such as loans, credit cards, and insurance from anywhere, at any time. It simplifies the application process and shortens the sale cycle of financial products and services by eliminating unnecessary paperwork and by offering advanced web and security technologies, ensuring a safe and efficient experience.
+i-Apply is designed to fit the needs of the financial services industry and can be easily integrated with existing systems. It allows financial institutions to reach their customers in every location and shorten the sale cycle of products and services to just minutes. It is built to bring the customer closer to the Bank while the Bank is enabled to cross sell multiple products and services through a single point of sale either in its premises or online. The digital customer onboarding process is streamlined with a workflow and rules-based approach with the KYC solution. Sub-processes and fallback scenarios are also included in the setup to ensure a comprehensive and secure onboarding process.
+Overall, i-Apply is built to provide a seamless and efficient experience for both the end customer and the financial institution.
+ 
+1.3.2    AROTRON
+AroTRON is a comprehensive solution for managing collections, recoveries & litigation, offering a wide range of features and capabilities to help customers streamline their debt management processes. It offers unparalleled integration capabilities, allowing collections departments to easily connect with back-office systems and legacy systems where data is often stored. The platform includes tools such as a rule engine and autodialing capabilities to proactively manage customer relationships and minimize defaults. Additionally, it includes advanced productivity features such as workflow management and prioritized work queues, as well as support for low-cost communication channels like SMS and email. AroTRON also offers specialized capabilities for corporate customers, including a collaterals module to efficiently handle repossession and liquidation processes.
+ 
+1.3.3    LMS
+Loan Management System is a loan administration solution that helps servicers and credit purchasers to efficiently migrate and manage multiple loan portfolios from various creditors in a single installation. It increases productivity and reduces operational costs by automating tasks and integrating with other systems and data sources, such as credit bureaus and appraisal systems. The system includes features like automated payment processing, borrower self-service portals, and communication tools to improve the borrower experience. LMS supports all types of loans and allows for easy launch of new products or modification of existing ones. It reduces implementation cost, time to market for new products, and maximizes debt recovery with efficient restructuring techniques.
+It can be offered as a stand-alone solution or as part of the AroTRON solution or can be integrated with existing systems of the organization via standard APIs.
+ 
+1.3.4    DECISION ENGINE
+Decision Engine is a powerful tool that allows organizations to automate a wide range of policy-related checks. Using this module, businesses can easily define policies using a flexible and user-friendly interface. The graphical designer makes it easy for expert business users to create logical decision streams using simple business language, rather than complex programming code. Decision Engine can also aggregate data from a variety of sources and includes advanced features such as rule versioning and simulation to provide added flexibility and integrity to the decision-making process. This module operates independently from core systems and allows businesses to easily organize, track, and manage their policies and rules in a graphical environment optimized for business users. Decision Engine also helps organizations adapt to changing business needs in a timely and cost-effective manner by allowing business users to build and maintain core rules and policies using predefined components, rather than relying on IT personnel for programming. It provides a layer of flexibility in which business logic is easy to communicate, change, reconcile and automatically applied across various systems in a highly reusable manner.
+ 
+1.3.5    DATA STANDARDIZATION
+Data Standardization enables organizations to effectively discover, clean, and unify customer data. This process involves transforming the data into a common format, making it usable by multiple entities and promoting smoother operations, including advanced analytics, collaboration with internal and external agencies. The standardized data is stored in a common data model (CDM) format specific to the industry.
+The solution leverages trusted dictionaries to verify and correct customer data fields, such as names, addresses, phone numbers, and email addresses, resulting in accurate and unique customer records. The process runs automatically but also allows for manual adjustments. 
+ 
+1.3.6    SEGMENTATION
+Segmentation Solution offers organizations the ability to precisely target specific groups, align resources with segment requirements, increase accuracy, enhance brand perception, anticipate market changes, and identify niche segments.
+It can be used for a wide variety of vertical markets, e.g. Banking-Acquisition (Customer retention, Customized offerings, Pre-approved offerings, Financial KPIs / Segment), Banking-Arrears (Early warnings, Compliance, Debt Arrangement Solutions, Collection strategies), TELCOs (Marketing campaigns, Customer loyalty), Retail (Promotion campaigns, Cross-sell / Upsell, Product / loyalty offerings, Ads, commercials, Credit Scoring / Early warnings), Public Sector (Citizen categorization, Tax optimization, Tax collections, Measurements).
+The segmentation solution can be customized without coding or IT involvement. It integrates seamlessly with AroTRON and i-Apply. It supports compliance enforcement. It also provides simulation capabilities with versioned rules, decision tree execution tracking, batch execution, reusable structures, a collaboration platform, and can process 3 million accounts in less than 2 hours.
+ 
+1.4   FINANCIALS
+Relational has grown through the years, both in terms of footfall and gross revenue, and successfully managed to retain its financial stability and health throughout various worldwide financial and geo-political challenges. This adds to the credibility and the quality of service the company provides across its international clientele. 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+1.5   ORGANIZATION
+Relational is a fast-growing organization, occupying 290 employees across Greece, Romania, and Kenya and is continuously investing in attracting the best talent of the market to ensure outstanding business results combined with business ethics and integrity. The following diagram showcases the organizational structure of the company. 
+ 
+
+ 
+ 
+Breakdown of headcount in project related roles:
+Business Analysts, iApply - Mitos	15
+Business Analysts, AroTRON	18
+Configuration and integration engineers (AroTron)	24
+Developers, iApply - Mitos	28
+Developers, AroTRON	19
+Client support	14
+Sales - (Sales, presales, account managers, third party products)	18
+ 
+Relational has a multicultural team of experts, capable of addressing domestic as well as international markets. Relational’s technical personnel consists of specialized and certified Software Engineers (certified in “SAP BO”, “SAP Certified Support Associate”, Sybase ASE, “BMC Hellix ITSM”, “BMC Hellix Discovery”, “BMC Control-M”, “ITIL”, “Tagetik Budgeting, Planning & Forecast”, “Informatica Cloud Data Management”, “MS Data Fundamentals”, “Atlassian Certified Jira Administrator”) who are the company’s largest asset. The company actively promotes continuous learning for its technical personnel by researching and adopting new methodologies and technologies as soon as they are made available internationally. By doing so, those teams are enabled to deliver the best possible solutions, at any time, optimized for the customer’s needs. 
+Relational’s organizational structure as well as its business practices are based on international standards, and all staff members hold considerable proven experience in collaborating with enterprises of all scales, operating in markets across the world. Staff has specialized know-how through their international prior involvement with Credit Origination, Know-Your-Customer (KYC) – customer onboarding, Loan Management, Debt Management, Segmentation, Analytics, Data Management, Data Standardization, Business Service Management, Planning, Budgeting & Forecasting projects. Overall, Relational’s staff holds the following qualifications, which ensure the successful and on-time delivery of its services: 
+u  High experience in IT projects (e.g. Credit Origination, Know-Your-Customer (KYC) – customer onboarding, Loan Management, Debt Management, Segmentation, Analytics, Data Management, Data Standardization, Business Service Management, Planning, Budgeting & Forecasting etc.).
+u  High expertise with a wide variety of software products in the areas of RDBMS, ETL, OLAP Servers, Decision Support Tools, Data Mining, and with Relational’s custom products.
+u  Excellent users of IT systems development methodologies (e.g. SCRUM, KANBAN).
+u  High expertise with project management methodologies (PRINCE II & PMI guidelines), quality management processes (ISO 9001-2015 certification), IT Service Management processes (ITIL), IT security processes (ISO 27001:2013), risk management methodologies (COBRA), and advanced project management tools (e.g. MS Project Server, Trello).
+2      RELATIONAL’S EXPERIENCE IN SIMILAR PROJECTS
+Relational’s clientele in the banking sector consists of more than 20 banks in Europe, Middle East and Africa and there are over 50.000 users using its mission critical applications. RELATIONAL has implemented successful loan origination projects with similar characteristics to the ones requested in the current expression of interest, for other Banks in Greece, Uganda, Kenya, Tanzania, Poland, Albania, Romania, Serbia, Bulgaria, FYROM and Ukraine using the proposed solution named “i-Apply”. This solution counts more than twelve (12) years of maturity (180 man years of loan origination coding & consulting expertise to the Banking & Financial sectors) and continuous improvement adopting leading edge technologies. The following table summarizes Relational’s experience in implementing loan origination projects using i-Apply (indicative list). 
+ 
+No.	Customer	Project Description	Banking Products	Project Duration	Project 
+Status	Support
+1	PRIDE Microfinance	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Personal loans
+Salary Loan
+Micro Loans
+Mortgages
+Overdrafts
+Corporate Loans
+Letter of Guarantee
+Letter of Credit	09/2023 – 07/2024 (estimation)	Under Implementation	-
+2	STIMA SACCO	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	FOSA products
+BOSA products
+Group Loans
+Member Registration
+Member Closure
+Business Loans
+Letter of Guarantee
+Restructuring
+Muslim Loans	5/2021 – 11/2022	Completed	Ongoing support since 12/2022
+3	Kenya Police SACCO	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Asset Finance
+Business Loans
+Mortgages
+FOSA products
+BOSA products
+Member Registration
+Member Closure	04/2019 – 05/2020	Completed	Ongoing support since 06/2020
+4	Zambia National Building Society	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Personal loans
+Salary Loan
+Micro Loans
+Mortgages
+Overdrafts
+Corporate Loans
+Letter of Guarantee
+Letter of Credit	01/2019 – 12/2019	Completed	Ongoing support since 01/2020
+5	Mwalimu National  SACCO	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	FOSA products
+BOSA products
+Group Loans
+Member Registration
+Member Closure
+Business Loans	4/2018 – 3/2021	Completed	Ongoing support since 04/2021
+6	Eurobank / Postbank (Bulgaria)	i-Apply new Release
+ 
+This project concerns the development of various enhancements to the existing i-Apply installation.
+The main enhancements are the following one:
+·       i-Apply enhancement for approval levels for TAG loans
+·       HL ScoreCard
+·       Change in the calculation of the interest on overdues
+·       Issuing & Acquiring of Business MasterCard contactless credit card product
+·       HL Policy Rules
+·       SBB Scorecard and Policy Rules
+·       Online applications enhancements (for individuals)
+·       Instant Loan Approval & Consumer Policy rules
+·       Change in i-Apply for automatic approval of MasterCard Cash card	SME Loans
+Consumer Loans
+Credit Cards
+Mortgage Loans
+Student Loans	1/3/2017 – 8/12/2017	Completed	Ongoing support since 01/2018
+7	Mwalimu Commercial Bank Tanzania	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Staff Loan
+Micro Overdraft 
+Commercial Overdraft
+Agriculture Commercial
+Agriculture Micro
+Letter Of Credit
+Guarantees
+Trade Loans
+Salary Loan
+Home Improvement Loan 
+Mortgage Loans 
+Micro Loans	06/2016 –12/2016	Completed	On going support since 01/2017
+8	Centenary Bank Uganda	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Corporate Financing  
+Staff Loan
+Micro Overdraft 
+Commercial Overdraft
+Agriculture Commercial
+Agriculture Micro
+Letter Of Credit
+Guarantees
+Trade Loans
+Salary Loan
+Home Improvement Loan 
+Mortgage Loans 
+Micro Loans	10/2014- 01/2017	Completed	On going support since 02/2017
+9	Housing Finance Kenya	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Corporate Financing 
+Mortgage Loans (HL)
+Mortgage Construction Loans (ML)
+Personal Staff Loan (PS)
+Mortgage Staff Loan (MS)
+Vehicle Staff Loan (VS)
+Project Loan (PL)
+Overdraft Loan (OV)
+Excess Over Limit Loan (EX)
+Mortgage Loans (HL)
+Mortgage Construction Loans (ML)
+Personal Staff Loan (PS)
+Mortgage Staff Loan (MS)
+Vehicle Staff Loan (VS)
+Project Loan (PL)
+Overdraft Loan (OV)
+Excess Over Limit Loan (EX)
+Contract Financing (CF)
+Personal Loan (CL)
+Salary Advance (SA)
+Salary Advance Staff (SS)
+Corporate Loans 
+Letter of Credit (LC) (with property as collateral)
+Letter of Guarantee (LG) (with property as collateral)
+Letter of Credit (TC) (with other type of collateral)
+Letter of Guarantee (TG) (with other type of collateral)
+Partial Disbursement Mortgage Construction Loans (PD)
+Partial Disbursement Project Loans (PP)
+Closing Costs Construction Loans (PC)
+Personal Account (PA)
+Business Account (BA)
+Safe Deposit Boxes (SD)
+Property point developer application (DA)
+Property Point customer application (CA)
+Auction Process (RA)
+Negotiated Settlement Process (RN)
+Receivership Process (RP)
+Rescheduling Process/Capitalization Process (RC)
+Sale by private treaty Process (RS)
+Transfer by Chargee Process (RT)
+Zero rating Process (RZ)
+Personal Loan (CL)
+Salary Advance (SA)
+Salary Advance Staff (SS)
+Corporate Loans 
+Letter of Credit (LC) (with property as collateral)
+Letter of Guarantee (LG)  
+        (with property as collateral)
+Letter of Credit (TC) (with 
+other type of collateral)
+Letter of Guarantee (TG) (with other type of collateral)
+Partial Disbursement Mortgage Construction Loans (PD)
+Partial Disbursement Project Loans (PP)
+Closing Costs Construction Loans (PC)
+Personal Account (PA)
+Business Account (BA)
+Safe Deposit Boxes (SD)
+Property point developer application (DA)
+Property Point customer application (CA)
+Auction Process (RA)
+Negotiated Settlement Process (RN)
+Receivership Process (RP)
+Rescheduling Process/Capitalization Process (RC)
+Sale by private treaty Process (RS)
+Transfer by Chargee Process (RT)
+Zero rating Process (RZ)	01/2014-02/2016	Completed	Ongoing support since 03/2016
+10	Eurobank / Postbank (Bulgaria)	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Corporate Financing	01/2016 –10/2016	Completed	Ongoing support since 10/2016
+11	KPC Group / 
+UBB AD (Bulgaria)	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	SME Loans	12/2014 – 06/2015	Completed	Ongoing support since 07/2015
+12	National Bank of Greece Group / Banka Romanesca (Romania)	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	SME Loans	11/2013 – 06/2014	Completed	Ongoing support since 07/2014
+13	National Bank of Greece/ Greece	Gap analysis, i-Apply installation, parameterization & customization for , training of users and administrators, technical support & help desk services	Consumer Loans
+Credit Cards
+Debit Cards
+Merchandisers (web i-Apply)	01/2013 – 07/2014	Completed	Ongoing support since 08/2014
+14	Development Bank Egypt 
+(name cannot be disclosed without Bank’s permission – under NDA)	Gap analysis, i-Apply installation, parameterization & customization training of users and administrators, technical support & help desk services	Project and Export Development
+Structured Trade Finance
+Syndications and Specialized Finance	07/2012 – 11/2014	Completed	-
+15	OTP Group / Vojvodjanska Banka (Serbia)	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Corporate Financing
+SME Loans
+Mortgage Loans
+Credit Cards	04/2012 – 04/2014	Completed	Ongoing support since 05/2014
+16	Alpha Bank Ukraine	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Consumer Loans
+Auto Loans
+Personal Loans
+Student Loans
+Balance transfer Loans
+Credit Cards
+Mortgage Loans
+Debit Cards
+Merchandisers (web i-Apply)	05/2011 – 07/2011	Completed	Ongoing support since 08/2011
+17	Alpha Bank Albania	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Consumer Loans
+Auto Loans
+Personal Loans
+Student Loans
+Balance transfer Loans 
+Credit Cards
+Mortgage Loans
+Debit Cards
+Merchandisers (web i-Apply)	05/2010 – 07/2010	Completed	Ongoing support since 07/2010
+18	Alpha Bank Skopjie	Gap analysis, i-Apply installation, parameterization & customization training of users and administrators, technical support & help desk services	Consumer Loans
+Auto Loans
+Personal Loans
+Student Loans
+Balance transfer Loans
+Credit Cards
+Mortgage Loans
+Debit Cards
+Merchandisers (web i-Apply)	03/2010 – 06/2010	Completed	Ongoing support since 07/2010
+19	Alpha Bank Serbia	Gap analysis, i-Apply installation, parameterization & customization training of users and administrators, technical support & help desk services	Consumer Loans
+Auto Loans
+Personal Loans
+Student Loans
+Balance transfer Loans
+Credit Cards
+Mortgage Loans
+Debit Cards
+Merchandisers (web i-Apply)	01/2010 – 05/2010	Completed	Ongoing support since 06/2010
+20	Alpha Bank Bulgaria	Gap analysis, i-Apply installation, parameterization & customization training of users and administrators, technical support & help desk services	Consumer Loans
+Auto Loans
+Personal Loans
+Student Loans
+Balance transfer Loans 
+Credit Cards
+Mortgage Loans
+Debit Cards
+Merchandisers (web i-Apply)	07/2009 – 12/2009	Completed	Ongoing support since 01/2010
+21	Eurobank / Universal Bank       (Ukraine)	Gap analysis, i-Apply installation, parameterization & customization training of users and administrators, technical support & help desk services	SME Loans
+Consumer Loans
+Mortgage Loans
+Credit Cards
+Debit Cards	11/2007 – 11/2008	Completed	Ongoing support since 12/2008
+22	Eurobank /  Polbank       (Poland)	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	Corporate Financing
+Consumer Loans
+Credit Cards
+Debit Cards
+Mortgage Loans	12/2005 – 06/2007	Completed	Support from 07/2007 until 02/2014 due to bail-out of Polbank from an Austrian Bank
+23	Eurobank / Eurobank A.D. (Serbia)	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	SME Loans
+Consumer Loans
+Credit Cards
+Mortgage Loans	02/2005 - 12/2006	Completed	Ongoing support since 01/2007
+24	Banca Transilvania / SC Bancpost (Romania)	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	SME Loans
+Consumer Loans
+Credit Cards	02/2005 - 12/2006	Completed	Ongoing support since 01/2007
+25	Eurobank / Postbank (Bulgaria)	Gap analysis, i-Apply installation, parameterization & customization, training of users and administrators, technical support & help desk services	SME Loans
+Consumer Loans
+Credit Cards
+Mortgage Loans
+Student Loans	04/2003 – 04/2004	Completed	Ongoing support since 05/2004
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3      I-APPLY LOAN ORIGINATION
+i-Apply loan origination is designed from the ground up to support the requirements of lending organizations. Its implementation started in 1996 and since then more 180 man years have been invested in its development. At the time of writing i-Apply has been installed at 20 major installations in banking and financial organizations in Europe, Middle East and Africa. Tens of thousands of users use i-Apply in their daily work to carry out lending related tasks or even as a front end for core banking applications.
+i-Apply provides user organizations with a complete lending application processing system. Off the shelf it is delivered with the following set of ready to run financial products:
+u  Fast loans
+u  Micro Loans
+u  Consumer loans (direct or through merchants)
+u  Credit / Debit cards (Visa card, Master Card, American Express Card, proprietary brand)
+u  Overdrafts
+u  Dual cards
+u  Mortgages
+u  Credit line
+u  Corporate loans (legal documents, trade finance, credit flow) and corporate Financing (e.g. letter of credit, letter of guarantee)
+u  Project Financing
+u  SME loans
+The system is architected as a set of cooperating engines – modular architecture - that carry out all processing involved in the management of a loan application:
+u  Workflow management (multiple work queues, dynamic work flows)
+u  Business rules (multiple scorecards, credit policies implementation)
+u  Document management (hard copy entry and archiving)
+u  Reporting (on-line and batch)
+u  Internal system communications (core banking system, CRM, card management, scorecard system, etc.)
+u  External system Communication (credit bureaus)
+u  User interface (PC, Web, mobile)
+Localization of the system is very simple and may be carried out even by the user organization on its own. The following localized versions are readily available:
+u  English
+u  Romanian
+u  Bulgarian
+u  Polish
+u  Serbian/Croatian
+u  Arabic
+u  Greek
+ 
+3.1   LOAN APPLICATION INPUT
+u  Uniform UI
+i-Apply manages a lot of information and needs to present it to the user in a manageable and non-distracting way. As a result, a multi-tabbed user interface has been employed throughout the application in order to process application in real time. 
+The first, left-most, tab of the UI is dedicated to:
+w  the customers data for existing or new customers with the ability to capture multiple information and display data for already existing customers according to the parameterization (in the right part of the screen)
+w  basic information on the product requested (in the left part of the screen)
+The contents of the first tab never change, i.e. the user will always find their basic information on the customer and the product, regardless of the financial product under consideration.
+The number of tabs to follow and their contents depend on:
+w   the financial product requested by the customer
+w   the specific lending organizations information requirements
+ 
+u  Web-based front end
+The Web-based front end of i-Apply may be used either within the lending organisations or from any authorized point of sales outside the organization’s intranet (e.g. merchants and other business partners).
+Using any modern internet browser users fill the necessary fields of the loan application and then send it to Head Quarters for further processing. 
+Access to the system is through a login and password combination, which is under the control of the lending organizations authorized IT personnel. The user’s authorization is validated every time s/he tries to access the system. Every action is audited, allowing later to trace all user activities through an audit trail screen, which displays all relevant information (e.g. user login/logout time, field’s alteration, information addition, connection used, time of inactivity, etc.).
+Applications for loan products usually require specific documents (id cards, passports, licenses, contracts, etc.) to be sent along with the actual application so that a proper evaluation may be carried out. i-Apply accepts data from a variety of sources:
+w   Scanning: Supported scanning devices are scanners equipped with TWAIN interface or fax machines. The user scans through a scanning device or fax machine the appropriate documents and attaches them to the application record.
+w   Viewer: All the authorized users of a loan application workflow may open the documents and inspect them. i-Apply allows simple processing of an image such as zoom-in, zoom-out, rotation, spotting, magnification, etc.
+w   Mirroring: this feature allows visual comparison between the input (typed) data of a customer and his/her scanned documents. In this case the branch officer may check if the typed information and the corresponding scanned documents match.
+ 
+u  Unique application number
+Upon entering into the system all i-Apply applications receive a unique application identifier that is composed of the product type and a serial number. This configuration is parametric and a system administrator may modify it.
+ 
+u  Mandatory fields
+System administrators may define the characteristics of loan application fields such as: mandatory, optional, visible, hidden, etc. These settings are all adjustable from a single administrative screen.
+ 
+3.2  BASIC PROCESSING
+ 
+u  Searching
+End users interact with i-Apply’s loan applications through an inbox screen. This screen looks like an e-mail inbox and should be very familiar to end users, even at first sight. Loan applications may be searched for and retrieved using any identifying piece of data, provided that system administrators have not specified that it should remain private.
+All data of an application are retrieved as soon as the user selects and opens the loan application in his/her inbox.
+ 
+ 
+Search Screen
+
+ 
+u  Copying
+Users may copy loan applications at the inbox level. This is useful in cases where the user needs to, effectively, duplicate or clone an existing case (with a different unique identifier, of course) and subsequently open this new case to edit it.
+Another possibility is that of a call-center operator who may want to use an existing case as a template in order to create additional copies with different customer data.
+Both the scenarios mentioned above, as well as any similar variation may be easily implemented in i-Apply.
+ 
+ 
+u  Instant loan promise
+When opening a loan application i-Apply runs a series of automated (but configurable) checks which allow the system to calculate and display the instant loan promise information.
+This feature is very useful because, if implemented properly, may save the lending organization critical time by decreasing hours of manual checking to mere seconds. At the same it provides the lending organizations business partners with critical on-line feedback that allows them to close deals far more effectively for all parties concerned.
+To calculate the instant loan promise i-Apply may make use of specialized tools such as:
+w   decision trees/matrices
+w   scoring calculations
+w   customer indicators (e.g. exposure, debt to income ratio, etc.)
+w   arbitrary checks 
+o   percentage of monthly instalment / (monthly income debts) for applicant
+o   applicant age limit
+o   pending documents
+o   black lists
+o   postal code check
+o   telephone number checks
+o   black list check
+o   guarantor requirement (e.g. depending on transaction amount and the applicants age)
+w   credit bureau findings
+w   workflow rules
+The result of the calculation is usually displayed as a number of colored buttons. Each button corresponds to a category of checks (e.g. customer profile data, credit bureau data, etc.). The color shows the systems recommendation (e.g. positive, negative, neutral). Needless to say, both the number of tests and the systems actual are recommendations are fully configurable.
+As already stated, the number of checks to carry out and the systems actual recommendations are fully configurable, depending on the lending organizations business practices.
+ 
+u  Fraud control
+i-Apply provides an easy to use fraud detection screen, which compares application details (at the field level) for all open applications of the same customer, received through different sources. Any differences detected will be highlighted including user and date-time information. Also, smart filtering of the information is available. 
+This feature is initiated without human intervention as soon as i-Apply has received enough information to uniquely identify a customer (i.e. UCN, JMBG, PESEL, CNP, etc.). i-Apply presents all required information and alerts the user to the customers’ behavior, by analyzing on a field by field basis details about all open applications simultaneously. The user may make a decision or forward the application plus his/her comments to a supervisor and wait for the applications evaluation.
+ 
+u  Approval Process
+The user can input predefined or individual comments and decisions on an application which cannot be edited once committed in order to make a decision on a facility. These can be dynamically maintained through parameterization in the Administrator module. The decision making can be assisted by the Performance financial ratios as calculated by the system.
+ 
+u  Balance Sheet
+i-Apply has the ability to capture the full balance sheet and P/L information grouped by financial year. The Bank can dynamically parameterize additional field or information that can be captured by the user through the Administration module.
+
+u  Customer Information
+i-Apply is able to capture multiple customer information data. In case the bank requires additional fields and data to be captured the user can dynamically parameterize this information through the Administrator module.
+ 
+Customer Details:
+
+ 
+Customer Address Information:
+
+ 
+Professional Details:
+
+ 
+3.3  DOCUMENT MANAGEMENT
+For every loan application, i-Apply manages a separate document folder. In this folder the end user may store any type of file such as Word Documents, Excel Sheets, PDF documents, any type of images (JPEGs, BMP, multi-page TIFF, GIF, etc.), WAV, etc.
+ 
+u  MS Office integration
+i-Apply offers a set of MS Word templates to be used for welcome letters, advices, invitation letters, thankyou letters, rejection letters and other such purposes. Templates are stored centrally in the application server using XML. This method of representation is platform-neutral and does not strain the servers’ resources, as opposed to old methods (e.g. MS Word OLE Object).
+Templates are populated automatically by i-Apply following a user’s request. Depending on security policies templates may be locked and validated in the database. Any user who has the appropriate access right may access a template and print the filled-in document. i-Apply allows the user to send documents using regular mail services such as MS Exchange.
+i-Apply interacts with MS excel exchanging information and storing them in the database. Excel files are stored centrally in the application server. This method of representation is platform-neutral and does not strain the servers’ resources, as opposed to old methods.
+Depending on security policies excel files may be locked and validated in the database. Any user who has the appropriate access right may access an excel file work in the excel sheet and print the filled-in excel.
+u  Versioning
+While one or more users make successive modifications to a document, i-Apply may be configured to keep a configurable number of copies of previous versions. Any future reference to the document uses automatically the most current version available, but authorized users may revert to any previous one.
+u  Check-in / out
+When a loan application is opened by a user, it is marked as locked so that no other user may modify the application or any documents that may be attached to it. Therefore, when a file is checked out by a team member other members cannot access that file. Once a team member has finished working on a file, it is checked back in and becomes once again available to other team members.
+The system can also be configured to apply this feature at the level of individual documents (lock and modify an item without locking the whole loan application, where it is attached).
+The functionality described above keeps the files checked-out while the user is working on them. A related feature is the ability to use persistent locks. This can be implemented by assigning loan applications to individual users before they actually start working on them. This type of assignment can take place automatically, based on rules (push mode) or on-demand (pull mode).
+ 
+u  Mandatory documents
+System administrators may define for every financial product one or more mandatory documents. In some Core Banking Systems this information accompanies the product - in this case i-Apply builds on its own the mandatory list of documents. The user needs to gather all required documents before s/he may complete an application. The application will not be forwarded to the next node if mandatory documents are missing.
+ 
+u  Storage and distribution
+Documents are inserted in the database of i-Apply in BLOB format. The compression ratio is configurable and may be applied either on-line or in batch mode to all existing documents.
+ 
+u  Aging
+System administrator may set a Document Aging Function which defines the number of days documents will remain in the database. After this time interval, documents are being moved to an archive database, which may reside in magnetic or optical media. Optical juke boxes are supported from many different vendors.
+ 
+u  Caching
+For code lists and other data which do not change very often, i-Apply supports Client Side Data Cache Technology (CSDCT). This feature minimizes the transfer of data over the network. CSDCT caches all such data locally in flat files, which are synchronized with the database whenever needed.
+ 
+u  Printing
+User who may access a template document may also print the output of the document. Administrators may define printing permissions on user or on a group profile. There are also configurable parameters for document printing like maximum copies allowed to print. In addition, i-Apply keeps history of who, when, and how many times printed a document.
+ 
+3.4  DECISION ENGINE
+i-Apply has a business rules module, which is called Decision Engine. Decision Engine is a modern approach for the automation of a wide variety of policy related checks, allowing policies to be defined in a flexible and user-friendly manner. Complex business operations can be transformed into logical decision streams with ease using the Decision Engine graphical designer. 
+Expert business users design and manage comprehensive policies in an intuitive environment, where decision logic streams are built using business language, instead of programming code. Policies are translated by the system into machine code exploiting data, which may be aggregated from a variety of sources. Advanced features ranging from rule versioning to simulation provide added flexibility and integrity to the overall decisioning process. 
+Built to operate in conjunction with, but independent from core application systems, Decision Engine manages Demographic, Financial, Professional and other data in a truly business agnostic manner. The business obtains the power to organize, track, catalog, govern, simulate, test, reuse, search for, collaborate on and report on business rules and decisions. 
+Decision Engine automates complex manual activities and incorporates credit, collection, compliance and regulatory requirements creating an automated decisioning environment where business users can make the right decision at the right time. 
+Decision Engine allows organizations to manage their business policies and rules in a highly user friendly, graphical environment, which is optimized for use by business people and is separated from complex low-level IT infrastructure.
+Decision Engine enables organizations with complex operations to adapt to changing business needs timely and cost effectively. Instead of laborious programming by IT personnel, core business rules and policies are built and maintained by the business users by adjusting visually the rules that combine predefined components.  It provides a layer of flexibility to your information systems, in which business logic is easy to communicate, change, reconcile and automatically applied across various systems in a highly reusable manner.
+u  Credit Scoring
+This module calculates the score of a loan application based on the scorecard implemented by the lending organization. Its open and flexible architecture allows interfacing to any standard scorecard system (Decision, Scorex, etc.) or any other proprietary system. The scorecard is product-dependent, I.e. for each product the system can use a different scorecard.
+ 
+
+ 
+In case the lending organization has only the scorecard values (i.e. no separate scorecard system has been implemented), an administrator may enter these values directly in the i-Apply score module.
+All data entry in the scoring module is carried out by at least two different users in order to maintain the proper level of information security. The parameters are stored encrypted in the database so no unauthorized party may access them, even if they manage to inspect the database contents directly.
+  
+ 
+
+ 
+ 
+
+ 
+u  Rule engine
+The Rule Engine offers a flexible formula editor which allows the lending organization to change easily and in real time critical calculations such as dept-to-income ratio, income indicators, score values, etc. All such calculations are executed automatically giving to the branch level the ability to make automated decisions.
+ 
+3.5  WORKFLOW MANAGEMENT
+Loan products are usually created in the product factory module of a Lending Management System (Core Banking System). Using automated interfaces all relevant information is passed on to i-Apply so that business administrators may carry out further parameterizations (e.g. create different variations and offers depending on the current marketing strategy). Products are then assigned to specific user profiles (branch, location, etc.) and become available for general use.
+Thus, the design of a loan product boils down to the design of the relevant workflow so that i-Apply may guide end users along its steps.
+ 
+u  Workflow Module
+i-Apply Workflow Module is capable of editing all relevant objects (i.e. status, actions, nodes, events, etc.) and allows lending organizations to change easily and in real time all characteristics of a workflow process.
+Within i-Apply, a workflow defines and represents a specific business process related to the provision of a specific financial product. The workflow orchestrates and manages all steps and assignments involved in driving work towards resolution. 
+ 
+Supported features include:
+w   Multiple workflows per product: each financial product (fast loan, house loan, credit card, etc.) has its own workflow(s), status, actions and events.
+w   Possibility of copying workflows from standard templates that are offered by the system of i-Apply and based on that creating one completely new and enhance it.
+w   Parallel processing: users may send an application simultaneously to two nodes for parallel processing. This feature speeds up the whole application process and saves processing time. For example, in the House Loans workflow the parallelization of loan application process from Legal Department and Technicians gives the ad-vantage of fast pre-approval.
+w   Rule-based dynamic workflows: This feature allows to send an application to a node based on a set of predefined rules. Depending on the rule the receiving node may be different. This is very helpful when a loan application, depending on the delegation matrix specifications, is sent to the user with the appropriate authority level.
+w   Dynamic workflow balancing: Based on a set of parameters the workflow may decide to balance the load according to the number of user applications managed by the same node. Complex scenarios: The engine is fully capable of modelling and carrying out situations such as refinancing / balance transfers (i.e. the workflow enters a loop and will only exit when all payments have been completed).
+w   Manual assignment: Users may send an application manually to another user of the same group. This feature is very helpful for users of the “Approval Body” group (House Loans - Officers, Supervisors, Managers and Department Heads).
+w   Multi-node view: One user may view the pending list of another user in the same group. Very helpful feature for Supervisors, because they may inspect the pending lists of their subordinates - one by one - and using the “Manual Assignment” feature they can balance the load.
+w   Multi user role: Every user can have more roles with the same login.
+w   Powerful auditing: Every action on the workflow is recorded, keeping all needed information (user name, role, node, date-time, intervals, etc.). Such historical information is available at any time and (most importantly) can provide productivity in-formation regarding every single activity in the workflow.
+w   Multiple actions in order to facilitate any missing information or supplementary processing by the Loan Originators which can be dynamically parameterized.
+w   Approval limits can be defined for each role and level according to the Bank’s Policy through the dynamic parameterization.
+ 
+u  Organizational structure support
+i-Apply provides a number of facilities to describe the organizational model of a lending organization. The basic constructs are:
+w   workflow nodes
+w   user roles
+w   branches (or other organizational units)
+Using the above elements an administrator may build the full organizational structure of an organization and then map individual users to it. Nodes, roles, and units may be used to represent any kind of structure or relation (individual officers or groups, individual branches, regions, or headquarters, business units, branch or unit managers etc.)
+The organizational model is fully integrated with all i-Apply operations related to workflow and document management (e.g. view and edit permissions).
+ 
+Workflow Designer:
+
+3.6  INTERFACES
+u  Credit bureaus
+i-Apply is able to connect to any external credit bureau to check the customer’s credit status and score appropriately her/his application. The connectivity subsystem of i-Apply is able to use a range of different methods (MQ-Series, Web-Services, XML, etc.) to connect to different credit reference installations. Examples of already implemented such interfaces are:
+w   Greece: Teiresias (black and white bible)
+w   Romania: DelosScoring
+w   Bulgaria: Borica
+w   Serbia: Bank Association Credit Bureau
+w   Poland: BIK and MIG
+w   Kenya: National Credit Bureau
+i-Apply supports multiple score cards per product/channel as well as score card history (score card changes tracking). The ranges and the score values are parametric and the actual data entry is carried out with extra security measures (e.g. double checking and tracking).
+The credit bureau section has a separate interface which searches information directly from the credit bureau organization for a specific customer. 
+ 
+u  Collaterals
+i-Apply may communicate with lending organization’s Lending Management System (Core Banking System) and open collaterals in real time. All types of collaterals are supported such as Properties (Movable, Immovable) and Cash collaterals. In addition, the user can perform multiple transactions on the collateral such as Valuation, Insurance, Leasing etc.
+ 
+u   Credit cards issuance/disbursement systems
+i-Apply is able to communicate with a wide range of card issuance / disbursement systems or other kinds of external systems that import/export data in batch mode or on-line. A variety of such interfaces have already been implemented.
+ 
+ 
+ 
+ 
+u  Customer’s Exposures to the Bank 
+i-Apply is able to provide in real time through the numerous already implemented interfaces with the Core Banking System and other external systems a complete summary of the customer’s exposures and credit history. 
+ 
+u  Fee Processing
+i-Apply may charge Application or any other type of fees through the interfaces with the Core Banking System in real time processing.
+ 
+u  Customer’s Information
+i-Apply is able to update or retrieve any customer’s information to the Core Banking System. The rights for this process can be granted through the dynamic parameterization in the Administrator module.
+ 
+u  Product Factoring
+i-Apply has the ability to receive all the parameterization of Products through an interface with the Core Banking System as they have been parameterized. This is performed by a process which avails all the product features from the CBS.
+
+ 
+ 
+3.7   ADMINISTRATION
+u  Basic administration
+i-Apply is a parametrically configurable system: more than 8,000 parameters and 15 different administrative tasks are available to help the customization process so that i-Apply may fit exactly to the needs of any lending organization. Most configuration and administration functions are accessible through the administration module.
+The administration module provides the following functions:
+w   Workflows: Administrators may see graphically the workflows for all loan products and with a drag and drop interface change important parameters such as status, actions, events, create new workflows, etc.
+w   Score cards: For each loan/credit type product (Visa card, MasterCard, AMEX, Fast Loans, Scheme Loans etc.), there are specific score categories (e.g. age, gender etc.) and for each of these categories there are ranges of values. Administrators may adjust them according to the organizations business practices.
+w   Multi-lingual support: Administrators may choose a language. i-Apply displays a long list of strings and asks the administrator to enter her/his translation for each one. An import/export feature is also available.
+w   Nodes: Administrators may manage system nodes, i.e. enter the ID, title and short title for each of one.
+w   Mandatory fields: Administrators may define through parameterization dynamically which fields mandatory are depending on the role, loan type, status and group of fields.
+w   Queue management: Administrators may create, delete, define/view the queue as well as add/remove workflow instances from queues.
+w   Security rights: As with the mandatory fields discussed earlier, Administrators may to define through parameterization dynamically which fields should be enabled or not on every screen.
+w   Document templates: Administrators may create Word document templates. These are used in order to produce the final contracts or other internal documents which the customer will be asked to sign.
+w   Codification lists: The codification list screen contains all the look-up fields used in pick-up splash windows and drop-down list-boxes. These lists are parameterized dynamically and can include business sectors and their sub-sectors, facility purposes along with any kind of list the Bank requires (check lists etc.). 
+w   Automated checks configuration: Each check belongs to a group of checks and for each check there is a set of values. For each value there is a risk indicator.
+w   Black lists: Administrators may define the Unique Tax Number, the name and the Bucket.
+w   Telecom Databases: On this screen the administrator can import data from a given database or file that contains information about the telephone and the real address of customers. The screen has retrieval capabilities with criteria for easy search.
+w   Branches: i-Apply stores the following information for each branch: code, internal code, title node ID, full address, manager’s names, authentication number and date, geographical region, etc.
+w   Error logs: Through this screen administrators may view all errors that occurred between two given dates. The result set displays the date/time (hh:mm:ss) of the incident, the user who was running the application, the module/system object where the error occurred and the complete message the user got from the system. Users may also refresh the contents and export the contents of a log.
+w   Alerts and messages: Periodically the system may generate alert messages, e.g. in case a deadline is missed. The frequency of such messages is adjustable.
+ 
+u  User management
+i-Apply users are maintained through the User Administration screen, which is part of i-Apply Administration module.
+This screen allows administrator to create, drop, lock or unlock a user. Other user characteristics that may be defined are user alias, language, workgroup, node(s) and role(s).
+The assigned nodes are part of the implemented workflows. They specify the pending lists (work queues) that the user may access. The assigned roles control the user rights on applications that arrive in those queues. Additionally, the administrator may grant or revoke authorization for specific application types that will be available to the user.
+An additional i-Apply option (Case Delegation Management Baskets) allows differentiation of users assigned to a node, by specifying further criteria for work distribution.
+The default i-Apply option is to create one database user for each application user created in this screen. In this case, the user password is scrambled, so that the actual database password is not known to the user (who could otherwise connect directly to the database using a different tool).
+The same administration screen is also used for web users. The administrator can specify all relevant parameters, such as the type of applications that a web user can submit.
+u  Delegation matrix
+i-Apply administrators may define matrices specifying the loan/credit type, decision type, role, action, forward action and range of values for specific fields per each Loan/Credit type. In this way a complete delegation matrix may be configured.
+After an administrator sets up the proper parameters, the flow of an application is dictated by the criteria defined as well as the delegation matrix.
+u  Security and system monitoring
+i-Apply offers comprehensive security and system monitoring tools developed not only to address the current needs of an organization, but also future requirements related to data protection. The document management system also allows organizations to control access to folders and individual documents on both group and individual levels. Using groups and inherited rights allows administrators to quickly assign viewing privileges, while individual-level security allows specific users such as managers to view documents that the rest of the group cannot view.
+It should be noted that i-Apply has passed extensive security auditing checks by independent security auditors in Romania, Poland and Serbia. All findings and resolutions from these audits were incorporated in the current version of the system (e.g. password expiration, password scrambling, etc.).
+ 
+u  Audit information
+The audit trail subsystem, offers the ability to track changes in the system. For each change the information recorded is:
+w   User id
+w   Time stamp
+w   Current value 
+w   Previous value
+Users with the appropriate access rights may see what changes were performed per application on:
+w   a field by field basis
+w   the workflow history of the application
+w   important events such as opening and saving an application
+It is important to note that i-Apply also tracks all Administrators actions (i.e. the modifications they cause to the systems settings) and keeps them available for auditing purposes.
+The format of the audit trail presentation is easily readable from users without requiring any specific knowledge.
+ 
+u  Rights management
+There are many parameters that are used to restrict or grant user access to specific items or functions. Most of these settings are based on the organizational model.
+The most important feature is the assignment of one or more roles to each user, which is combined with the current status of a loan application, to determine the effective user rights regarding additions or modifications to documents and form fields.
+It should be noted that i-Apply is an integrated system with all workflow and document management features combined in a unified solution. The same infrastructure used to define rights on documents is also used for permissions regarding workflow actions (forward, return to sender, approve, reject etc.).
+ 
+3.8  MESSAGING
+i-Apply provides its own internal messaging functionality which is available on every application form. Users may comment on anything they feel that is helpful and appropriate for the customer, the process, their findings, etc. After the message is saved it is stamped electronically and follows the application form along the workflow path. Every authorized user may add his/her own messages. Messages are sorted by creation date-time only. Messages cannot be altered or deleted by anyone in the system, not even by the creator. All information is available in a read-only mode for all users. Thus, every application form contains its own messaging history and whoever is properly authorized may read it. Administrators of i-Apply may change initial parameters and define the attributes of this function in order to notify users for the application approval process.
+ 
+3.9  REPORTING
+i-Apply aims to provide a 360-view of the customers. It fetches and displays in an integrated fashion all loan products (or loan applications) that belong to the same person.
+Reports are generated by i-Apply’s own MIS subsystem. More than 250 business terms are predefined and may be used to produce any type of report, concerning productivity, turn-around time, approvals, rejections, channel information, type of loans etc. i-Apply’s MIS has been certified by Business Objects. 
+The Business Objects universe incorporates a lot of complex information ready to be used. It is very simple to customize it to the lending organizations requirements without need for IT intervention in most cases.
+Basic business terms defined are related to concepts such as user, node, time, geography, type of loan, product, contract attributes, originator, customer, guarantor, co-applicant, rejection, approval, etc.
+By combining all this information, the user may build a wide range of reports. A special database (star schema) has been designed for this purpose which can exchange data with the central MIS and utilize all information available at the corporate level.
+Apart from the MIS subsystem, i-Apply also provides a set of simple reports for everyday use. These reports are customizable (contents, layout) to the organization’s needs.
+ 
+3.10 COMMISSIONS
+i-Apply features a module dedicated to intermediaries and merchants. Administrators may set up parameters for each such channel (i.e. user profile, products eligible to sell, security issues, etc.).
+ Merchants are treated as users with special permissions. Administrators may utilize all tools available by the system in order to define appropriate policies for Merchants.
+ 
+
+Administrators may categories merchants in special groups, according to their profile, type of sales, geographies, special contracts or specific issues handling and apply to each group different commission policies.
+Merchants on the other hand are able to follow the status of applications as soon as they are submitted to the lending organization. They may immediately request a loan promise or check the status of every application while it is being evaluated by the lending organizations approval process.
+ 
+
+The contract details of every merchant are stored in the database of i-Apply. Its terms and conditions are applied immediately when required. i-Apply stores all the information required by the lending organization regarding the Merchants activities, including invoicing. The module is very parametric in order to facilitate and serve the cooperation between the lending organization and Merchants. As far as security is concerned, there are many control and validation mechanisms in order to secure the exchange of transactions and minimize the risk of the lending organization.
+ 
+4     TECHNICAL ARCHITECTURE: HW & SYSTEM SW SPECIFICATIONS
+The proposed technical solution for i-Apply installation, adopts the 3-tier application architecture model, and is organized with independent logical tiers / segments. The suggested architecture offers increased performance and reduced network traffic, since most of the database inquiries are kept locally in the data center and only presentation traffic flows across the enterprise-wide network. 
+Our technical solution implements the following tiers/segments:
+u  Back-end / Data tier: It manages the data required by the applications and includes infrastructure components such as Database Servers and Storage Area Network used to store and access the central databases. Design policies ensure secure data access and availability. 
+u  Application tier: It includes the entire application software providing business logic, rules and user services. Application servers located at this tier communicate with back-end tier servers and protect the data from direct access from the clients.
+u  Presentation tier: It delivers the application to the end users. It is responsible for the presentation of data, for receiving user events and for controlling the user interface. This area can be further segmented providing secure access based on the type of users: internal, external, internet, “sophisticated”, etc.
+
+The proposed 3-tier architecture is considered to be the most suitable architecture for large, web-based enterprise applications. The major benefits over classic applications are the following:
+u  Rapid design and development of the system. 
+u  Change management: The partitioning and the modularity of the application makes it easier to make changes to just one tier without affecting the others.  
+u  Monitoring & optimization: Separating the functions into distinct tiers makes it easier to monitor and optimize the performance of each layer. 
+u  Configuration flexibility: Adding more capacity can take place independently at each layer. 
+u  Expandability: Multi-tier architecture makes it simpler to scale the system (tier) across multiple servers (horizontal expandability).
+u  Scalability: It is achieved by distributing the applications across any number of servers and by incorporating transaction-processing functions to funnel client requests. This results to supporting the users’ growth.
+u  Clear separation of user-interface-control and data presentation from application-logic. Through this separation more clients are able to have access to a wide variety of server applications. By separating the user interface from the application logic, a variety of user interfaces can be supported.
+u  Data storage independency: Redefinition of the storage strategy won’t influence the clients. RDBMS offers a certain independence from storage details for the clients.
+u  Availability: The proposed architecture eliminates single point of failure of all critical system components.
+ 
+4.1   PROPOSED ENVIRONMENTS – HW & SYSTEM SW SPECS
+We propose to implement four distinct environments:
+u  Production (x2 for High Availability)
+u  QA/Pre-Production environment 
+u  UAT/Training
+u  DR (Disaster Recovery) site
+ 
+i-Apply can be deployed in Virtual Machine platform, to minimize required expenditure and increase manageability and scalability of the solution.
+ 
+i-Apply Architecture
+The following figure presents the technical architecture of i-Apply.
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 1 summarizes the proposed specifications for the i-Apply Servers per environment for an installation with high sizing.
+ 
+Table 1: i-Apply Servers’ specifications
+Environment	Server	OS*	CPU Cores	RAM	Storage (GB)		
+					System (OS)	i-Apply	Backup
+Production
+(x2 for HA)	Web Server	WIN 2019	4	8	100	600	
+	Application Server	WIN 2019	4	8	100	600	
+	**Database Server	WIN 2019	8	32	100	1200	1200
+Pre-Production	Web Server	WIN 2019	4	8	100	600	
+	Application Server	WIN 2019	4	8	100	600	
+	**Database Server	WIN 2019	8	32	100	1200	1200
+UAT/Training	Application & WEB Server	WIN 2019	4	8	100	600	
+	Database Server	WIN 2019	4	16	100	1200	1200
+DR	Web Server	WIN 2019	4	8	100	600	
+	Application Server	WIN 2019	4	8	100	600	
+	**Database Server	WIN 2019	8	32	100	1200	1200
+*Operating System: MS Windows Server 2019 R2 64 bit. 
+**Database server RDBMS: MSSQL Server 2019 Standard Edition (recommended). For non-production environments (QA/Pre-Production & UAT environment), the use of MS SQL Server Developer Edition is also supported but specific limitations of Developer Release and risks due to different version/code should be taken into account. 
+ 
+The proposed hardware sizing may be modified after the analysis phase based on the technical specifications that will be concluded.
+The above schemas are only indicative suggestions. The final technical architecture will be mutually decided with the customer, so that any existing infrastructure can be utilized in the best possible way.
+The following Table summarizes the proposed specifications for end-user workstations for i-Apply.
+ 
+Table 2: Hardware and Software Specifications
+Parameter	Minimum	Recommended	Additional Information
+Processor	Intel® Core™ i3 or equivalent,	Intel® Core™ i5 or better, 6th Generation or newer	The Web Client may be executed on virtually any platform supporting a Web Browser, nevertheless, the provided recommended end-user workstation specifications aim at ensuring a professional level of user experience.
+Base Memory	4 GB	8 GB	
+Available Internal Storage HDD	According to the specifications and best-practices of the host operating system.	for Windows systems: 15% of the total capacity (see Additional Information)	
+Monitor Resolution	1280 x 800 (WXGA:Maximum)	1920x1080 (Wide UXGA)	Web App offers a functionality-rich Web UI, so resolutions less than 1200 x 800, although may support a workable UI in most screens, in some of the most commonly used screens may lead to cluttering of interface elements.
+Parameter	Minimum	Recommended	Additional Information
+OS	Windows 7	Windows 10	
+Browser	Google Chrome, latest version (* see Additional Information)		* Google releases continuous updates to their Chrome browser. We make every effort to fully test and support the latest versions as they are released. However, if defects are introduced with OEM-specific browser software, we cannot guarantee fixes in all cases. If you have a question about a specific version (for example whether a specific version is supported), please log a support case.
+For additional system requirements, see your web browser documentation.
+Pop-up windows	Allow pop-up windows from i-Apply domains		This is required for reports, the results of which open in a new browser window.
+i-Apply URL	Network Connectivity with i-Apply Web Server(s)		
+i-Apply
+Decision Engine	Access to DE executable 
+Network Connectivity with i-Apply Application Server(s)		
+ 
+4.2  PRODUCTION ENVIRONMENT
+The following schemas depict the proposed high-level physical architecture of the Production Environment and the corresponding features of each component:
+
+PRODUCTION SITE SCHEMA
+
+
+Almost, every computer system in the production environment is clustered. Clustering technologies are used in order to provide 99.999% system availability and enhance performance of the web applications. 
+A computer cluster consists of a set of loosely connected computers that work together so that in many respects they can be viewed as a single system. The components of a cluster are connected to each other through fast private local area networks, each node running its own instance on an operating system.
+In the production environment, Active-Passive and Web Farm clusters will be used. 
+Active-Passive cluster or also known as High-availability clusters or failover clusters, are groups of computers that support server applications that can be reliably utilized with a minimum of down-time. They provide continued service when a system component fails. Without clustering, if a server running a particular application crashes, the application will be unavailable until the crashed server is fixed. Active - Passive clustering remedies this situation by detecting hardware/software faults, and immediately restarting the application on another system without requiring administrative intervention. The process is known as failover. The clustered computers share at least one common disk partition called Quorum where shared configuration files are saved, one IP address known as cluster IP and one network name known as Cluster Name. More resources can be shares like data disk partitions. The computer chosen as active in the cluster attaches and uses all shared resources.
+Active-Passive clusters are often used for critical databases, file sharing on a network, and critical business applications. Active-Passive cluster implementations attempt to build redundancy into a cluster to eliminate single points of failure, including multiple network connections and data storage which is redundantly connected via storage area networks.
+Web Farm clusters are used for High Availability purposes but furthermore to accomplish server needs far beyond the capability of one machine. Using Network Load Balances the workload is balanced across the computers of the web farm providing enhanced performance of the web application. 
+Clusters use a heartbeat private network connection which is used to monitor the health and status of each node in the cluster.
+At the same time, in order to minimize HW costs and complexity our recommendation is to logically create the TEST, STAGING environments on the Passive node of the Cluster Architecture utilizing only a small fraction of its HW resources (CPUs, Memory, etc.).  
+    
+4.3  DISASTER RECOVERY SITE ENVIRONMENT
+Any complex and critical application solution like a Loan Origination is strongly recommended by all vendors and IT regulators/academics that a Business Continuity plan is set based on the existence of a Disaster Recovery Site. 
+The following schemas depict the proposed high-level physical architecture of a possible Disaster Recovery Site Environment and the corresponding features of each component. The below configuration will be able to take over the operation of Bank in case the Production Environment is hit by a major physical disaster:
+ 
+ 
+
+DISASTER RECOVERY SITE SCHEMA
+
+
+Disaster Site’s Application and Web Services have to be inactive. Only the 2 database servers will be activated to execute the Data Replication Process.
+Data Replication Process will be configured to replicate the data changes made to MS SQL databases at the production, to the Disaster Recovery Site.
+For Replication process to be achieved, data will be sent from Production Site to the Disaster Recovery site through a secure Dedicated Leased Line. To ensure communication availability a backup line (with less capacity) is also required.
+For the Disaster Site full configuration and Recovery process a Disaster Recovery Plan has to be implemented which will cover the desired behavior of replication process and the Recovery Procedure in case of an emergency. In order to implement a Disaster – Recovery (DR plan) the bank must decide and provide the following parameters:
+u  Which geographical site will hold the critical systems
+u  Which is the critical system and what is their prioritization
+u  For each critical system:
+w  What is the maximum time that the bank can operate without the system services (Recovery Time Objective – RTO)
+w  After the system’s recovery what is acceptable maximum loss of data (Recovery Point Objective – RPO)
+The values of RTO and RPO are the key factors for the implementation procedure of Disaster Recovery for each system. 
+ 
+4.4  UTILISATION OF EXISTING INFRASTRUCTURE 
+The above schemas are only indicative suggestions. The final technical architecture will be mutually decided with the customer, so that any existing infrastructure can be utilized in the best possible way.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5      PROJECT IMPLEMENTATION METHΟDOLOGY & PHASES
+5.1   PROJECT MANAGEMENT METHODOLOGY
+Our project management methodology is a simplified version of PRINCE2. Project planning using PRINCE2 is product-based which means the project plans are focused on delivering results and are not simply about planning when the various activities on the project will be performed.
+
+In our simplified version of PRINCE2, “Starting a Project” and “Initiating a Project” processes are integrated into one initial phase “Planning and Scoping”:
+u  Define business case, vision, case for change
+u  Outline goals, scope, budget and priorities
+u  Project roles and responsibilities
+u  Resource Planning
+u  Recruit, mobilise and on-board team
+u  Determining of High Level Requirements
+u  Project Communications & Announcements
+u  Scoping Workshops
+Additionally, “Controlling a Stage”, “Managing Product Delivery”, and “Managing a Stage Boundary” processes are integrated into one process “Execution & Control”:
+u  Authorize a Work Package
+u  Execute Work Package
+u  Review Work Package Status
+u  Capture and examine issues and risks
+u  Escalate issues and risks
+u  Take corrective action
+u  Deliver Work Package
+u  Plan the next Work Package
+u  Update the Project Plan
+u  Report Work Package End
+u  Produce an Exception Plan (if necessary)
+The key deliverables in terms of project management processes and from the initiation of the project for each phase will be a Project Definition Document (PDD) and a Project Plan supported by additional documents. These will need to be signed off by the project sponsors, project managers, and key business representatives.  The PDD will be the reference document from which the project will be managed and monitored. The PDD will cover at least: 
+u  Scope of the project (noting specific exclusions from the scope)
+u  Key deliverables 
+u  Project governance, management processes and reporting
+u  The overall project schedule 
+u  Risks and dependencies 
+The detailed project plan will indicate key activities, the dependencies between these activities, resource requirements and the expected duration of the activities, and the resulting critical path. Project plans are normally supplied in Microsoft project. 
+The scope of Initial Project Plan is the entire solution delivery, but inevitably there will greater or less detail within deliverables according to the phase to which they refer i.e. definition of a Phase One deliverable will be more specific than Phase Two. When the implementation program advances from one stage to the next, the Project Initiation activity is revisited so as to provide clearer and more precise definition of scope and deliverables.
+The project management monitoring and control process are the responsibility of the Client and Vendor project manager(s) and consist of the following meetings:
+u  Monthly or Bi-Weekly Steering committee meetings to report to wider senior management with business mangers on the overall business objectives of the program, including budgetary and business impact issues.
+u  Bi-weekly or Weekly Project Status Meetings with sponsor and business managers for the current phase to report on the project team progress. Technical managers and team members may also participate, as required.
+u  Each of the above meeting(s) has an associated report on a standard template.
+Based on KARAFARIN’s requirements, and on our extensive know-how in similar projects, we suggest a project plan with the following major phases:
+u  Analysis Phase
+u  Development phase
+u  Training & UAT phase
+u  Roll-out Phase
+u  Post Roll-out Phase 
+ 
+5.2  PROJECT IMPLEMENTATION PHASES
+The main implementation phases and related activities are described in the following table.
+Kick off Meeting & Preparation (pre-implementation) Activities	The project starts with a kick-off meeting of the project steering committee where the major milestones and deliverables are discussed. The kick off meeting can be scheduled immediately after contract signing. 
+The Project Manager appointed by the Vendor presents the participating Teams and the methodology that it will be followed. The kick off concludes with a certain starting date where the Project Manager will bring together the Business Analysts (of the Vendor) and the Business Experts (KARAFARIN) to start working on the Analysis Phase.
+WP1: Analysis	During Analysis Phase, required processes, data structures, business rules, and external interfaces, are discussed in detail, in order for Vendor consultants to be able to prepare complete and accurate Functional Specifications (FS documents). 
+This phase includes a series of workshops, where the business needs will be discussed and clarified. Business experts (KARAFARIN) will need to describe in detail the requirements of the system and also answer questions and provide the clarifications requested by Vendor’s Business Analysts.
+The basic deliverable of this phase is the Functional Specification documents. The documents are prepared in parallel with the workshops, so that they are submitted gradually, starting immediately after the workshops are completed.
+During this phase, a few more details will be discussed and agreed, such as preparation of a detailed project plan, including training location, participants and dates.
+WP2: Parameterization/
+Configuration	Based on the Functional Specification documents, the development team makes all necessary parameterization, configuration, and customization, to build all the required features in the development environment (at Vendor’s premises). An additional environment is used for internal testing (QA). A few weeks after parameterization/configuration commences, each module that is finalized is factory-tested and any issues are fixed. The target is to finish major parameterization/configuration one week before delivery, so that the software is packaged and a short regression testing is performed on the final deliverables. 
+If during the development process Vendor’s needs additional information or has any questions, that need a live system in order to be communicated and clarified, the QA environment (or a copy of it) may also be used for review purposes by the client.
+WP3: UAT Preparation &  UAT Phase	During the last weeks of the Development phase, the UAT environment is being prepared so that once the software is finalized it is immediately deployed to the UAT environment. A basic integration test and health check of the deployed software will be performed and any issues will be fixed. This is basically an IT/integration test, but a few experienced business users should also participate to verify basic test scenarios. The target is to have a valid, functioning system, before the UAT begins. Vendor’s expects a “preliminary sign-off” in this phase.
+During the UAT, users may raise issues, which must be logged in a ticketing system (Vendor’s or customer’s system). The development team provides required fixes in a daily basis. 
+The target is to cover all test scenarios at least a few days before sign-off, so that the integrity of the software does not get at risk with major last-minute changes. Finally, an overall and thorough regression test of the system takes place before the system goes live. At the end of the UAT phase, a sign-off is expected, which means that the s/w is ready to be promoted in production.
+WP4:Roll-out Phase	The Roll-out process is normally specified in the customer implementation framework or related policies, but Vendor’s has extensive experience in getting complex projects to production and is able to provide guidance in this process. 
+During rollout, production servers are installed and configured and any migration or other required activities, such as stress tests are performed (details should be discussed during the analysis phase, to clarify requirements in this area).
+For new product implementations, it is always suggested to start rollout with a pilot phase, in selected locations and/or a subset of the business operations. This way, the risk is kept low, and any major issues are identified and resolved before the full-scale rollout. Suggested duration for the pilot is 1 or 2 weeks.
+WP5: Post Roll-Out Phase	After the go-live date Vendor’s continues to fully support the installation with engineers working on-site (or through remote access), helping the key personnel of the Customer to run smoothly the daily operations of the system, transferring the appropriate knowledge, methodology, how-to and tips.
+5.3  PROJECT MANAGEMENT TOOL
+Vendor is utilizing a web-based collaboration tool for issues & task management, bug tracking and project management, JIRA, created by Atlassian (www.atlassian.com) company. By using this software, our company’s project managers are able to assign tasks and issues to groups of consultants and technicians and monitor them, making project management progress and collaboration between members of teams much more efficient for both working groups and managers. JIRA is a readily exploitable and flexible tool that has been designed to achieve the objectives of each project. 
+JIRA will also be used by Vendor for the management and execution of this project, looking forward to providing excellent support to both teams of CBE and Vendor. Whenever required, a link to the CBE’s own issue management system can be provided. To the extent that CBE would like to monitor and collaborate in real time with Vendor in the course of this business, the assignment of licenses to employees of CBE may be discussed, in order to make this possible. 
+Succinctly, the features of this application are: 
+w  Manage tasks, improvements, bugs, or any other issue.
+w  Dynamic and user-friendly interface.
+w  Easy to search and find documents, changes, versions, etc. 
+w  Integrated search tool with dynamic and multiple criteria. Ad-hoc issue search is available, which can be saved directly and determine the conditions for access to this report. Also, the results can be directly exported in many forms, such as .xls, .csv, etc. 
+w  Ability to customize the user's dashboard, including statistical data which are updated in real time. 
+w  Full access management circuit rating. 
+w  High scalability and integration with other systems (system email, RSS, Excel, XML and source control tools) 
+w  Ability to customize alerts sent to users via email like when a new task or a comment is added, a new job, a malfunction that needs solving, etc.
+w  Almost no specific requirements in hardware, operating system or database system. 
+w JIRA is developed with HTML standards and is tested with all the modern browsers, enabling easy integration with other systems like most known source control systems
+ 
+ 
+ 
+5.4  CHANGE MANAGEMENT PROCESS
+During the course of a project, it is typical for changes in scope, business drivers, environment, schedule, technology, or other parameters to be requested either by the Customer or by Vendor.  Proper management and control of these changes is essential to the success of the project.  Improper change management or none at all, greatly increases project risk.  For that reason, a Change Control Management Process (CCMP) is regarded as mandatory by Vendor.
+ 
+w  Basic Principles of the CCMP
+All changes shall be made through the CCMP in the form of a Change Request (CR).  No verbal agreement between persons involved in the effort will be binding on either Vendor or the Customer. Change Requests may be initiated by either the Customer or Vendor. The Customer Project manager, Vendor project manager, business manager and executive sponsor (and/or steering committee) manage this process. These people shall be collectively known as the Change Control Board or CCB.
+ 
+w  Change Control Board (CCB)
+The duties of the CCB shall be to oversee and manage the CCMP. The CCB will consist of the following people:
+o   Project Manager 
+o   Client Project Manager 
+o   Project Sponsor 
+o   Current phase Business Manager(s).
+ 
+w  Meeting Frequency
+There are several possible specifications for CCB meeting frequency.  One is ad hoc (as needed) and the other is scheduled.  Please note that a board that meets infrequently will not be able to perform its duties properly.  This increases the project risk level.  The CCB shall meet as often as necessary to address CRs in a timely manner but in all cases the CCB shall meet and evaluate CRs within 3 days for the initial review of a CR and within 5 days for review of the Detailed Evaluation.
+ 
+Generally speaking, the response time depends on the work involved by the change request in question. 
+It is the CCB’s responsibility to arbitrate on changes requested to the project. The main responsibility is to attempt to keep the project moving forward by quickly assessing change requests (CR’s). The Board requires consensus - all decisions, therefore, must be unanimous.
+Note that consensus to accept a change request does not always mean that the request is part of the original project scope. A change request (CR) may be deemed to be out of scope and additional funds and schedule may be allocated to cover the increased effort.
+ 
+5.5   PROCESS FOR ISSUES RESOLUTION
+Vendor uses a ticketing system for submission & tracking of software issues, which is based on Atlassian's BMC. The ticketing system is used both internally during Factory Acceptance Tests and also during the User Acceptance Tests (UAT). 
+The Customer will be provided with a unique Support URL with the appropriate credentials (user ID’s and passwords) allowing incidents to be reported to Vendor over the Web. Upon creation of a Support Incident, the system will issue a unique number, which will be referenced by the Customer and Vendor Support staff throughout the incident resolution cycle. 
+Customer may use this Web interface to provide Vendor with a description of the technical issue, attach log files, screen shots and/or any additional supporting documentation, view and monitor the resolution process and also add any comments to the issue. Vendor will use this Web interface to record all actions taken by the Support staff towards the resolution of the incident, including any incident information, diagnostics, problem reproduction, work-around recommendations, solutions, request for resolution confirmation and incident closure information. 
+ 
+5.6  PROJECT RISK MANAGEMENT 
+The following table presents the main potential project risks foreseen, and the respective mitigation actions/measures.
+No.	Project Risk Management Issue	Mitigation Action/Measure
+1.	Lack of top management commitment	Top management strong support is a prerequisite for the successful implementation of the project due to its cross-functional nature. In this respect, the Customer has to appoint the Project Owner (Customer Liaison). The Project Owner should be very familiar with the business policies and the IT logic of the Customer. The Project Owner should be empowered with adequate rights in order to decide and immediately resolve the problems that may arise during the Project Life Cycle.
+2.	Poor identification of Requirements	The Analysis phase is the most critical part of every project. In this respect, Vendor in co-operation with KARAFARIN will establish workshops where all business personnel responsible from all credit departments, should participate, discuss and agree on the business policies to be implemented. The workshop’s outcome should define the analysis document, which in turn will become the functional specification document that has to be agreed and signed by all partners. This document should be regarded as the “Bible” of the project’s implementation. Any deviations from it should be allowed only after the Steering Committee has given its consideration and approval.
+3.	Invalid or poor test outcomes	The IT infrastructure team of KARAFARIN in cooperation with Vendor should carry out all required tests in terms of architecture and infrastructure components (integration tests) in order to avoid unpredicted behavior of the system at the level of hardware, software and network. Vendor always recommends extensive stress testing of the integrated solution in order to produce the right capacity planning specifications for the infrastructure and the network.
+4.	On time availability of HW and System SW	Proactive management and strong follow up monitoring of all actions that would lead to the on-time delivery of any required HW and System SW component. Clear communication to the Bank about each party’s (Vendor, KARAFARIN, HW Vendor, System SW Vendor) obligations.
+5.	Lack of Responsiveness of third-party vendors	Proactive management and strong follow up monitoring of all actions that would lead to the early engagement and on time responsiveness to Vendor’s requests for interaction that may be required with 3rd party vendors (vendors that provided the Core Banking, the Card Management, Credit Bureau, etc.). Clear and focused requirements for completing the required interfaces, proactive arrangement of Testing Sessions, strong involvement of the Bank as sponsor and driver of everything.
+6.	Lack of effective Communication	All international Projects face challenges at the communication being exchanged between people with different skills, culture and mentality. Vendor is very strong in managing this risk applying at all levels the following principle: Transmit a message, confirmation of message being received, and confirmation of the meaning of the message being received from the other end. This principle combined with Vendor’s experienced people in international complex projects assure the elimination of this particular risk.
+ 
+5.7   PROJECT PLAN 
+Based on our methodology (see section 5.1. Project Management Methodology), the proposed project phases (see section 5.2 Project Implementation Phases) and on our extensive know-how in similar projects, we suggest a project plan with the following major tasks:
+u  Project Management
+u  Analysis
+u  Test & UAT Scenarios Preparation 
+u  Parametrization/configuration
+u  System Deployment for UAT  
+u  Test & UAT Scenarios Preparation 
+u  Training (trainers training)
+u  Installations, Integration Tests & Preliminary Tests
+u  UAT 
+u  Regression Test
+u  Roll-out/Data migration 
+u  Post roll-out 
+A list of the deliverables of a typical i-Apply project follows:
+u  D1. Detailed Project Plan 
+u  D2 Functional Specifications Document 
+u  D3. SOA Architecture & Infrastructure Document (incl. software/hardware requirement specification)
+u  D4. UAT scenarios
+u  D5. Testing & QA plan (test procedures)
+u  D6. System Ready for UAT (debugging/ diagnostics documents)
+u  D7. Training 
+u  D8. Users’ Manual (modular wise)
+u  D9. Administrator’s Manual 
+u  D10. System Ready for Roll-Out
+u  D11. Support & Governance Model
+u  D12. Maintenance procedures 
+Documentation will be provided both in hard copy and in electronic format (PDF and/or MS Word).
+The following diagrams present the proposed Project Time Plan for this project, including the main activities/tasks, their duration, phasing and interrelations, and milestones, Relational’s estimated effort and KARAFARIN’s estimated effort and their relevant responsibilities (RACI matrix).
+ 
+The project implementation period for Phase A is proposed to be 11 calendar months (starting from contract signature) plus 1 calendar month for post roll-out support. The time plan will be re-examined during WP1: Analysis Phase based on gathered functional specifications, and a new and more detailed time plan will be proposed. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+(*) Implementation of interfaces will take place either by web services or APIs or file exchange (using Relational's predefined templates). In case any KARAFARIN 's existing system or external system can support any of these integration options, the effort for T4.2 will be invoiced on a time & material basis.
+Implementation of interfaces refers to interfaces with the Core Banking System, SMS provider, Email exchange Server, Credit Bureau. All other interfaces will be invoiced on a time & material basis.
+(**) Migration from the existing systems will take place using Relational's predefined templates. In case KARAFARIN requests for custom templates to be used, the effort for data migration will be invoiced on a time & material basis. 
+(***) Our system has already successfully passed penetration tests in previous installations. This effort responds to standard penetration tests. In case KARAFARIN requests for additional penetration tests, the effort for T3.5 will be invoiced on a time & material basis.        
+ 
+PROJECT ASSUMPTIONS – TERM & CONDITIONS
+1.     With respect to integration with 3rd party systems, our offer includes integration with the following 3rd party systems:
+Ø  Core Banking System 
+Ø  SMS provider 
+Ø  Email exchange Server
+Ø  Credit Bureau  
+2.     Such integration needs to be serviced using our i-Apply APIs or basic i-Apply batch file templates.
+3.     Regarding the integration with other 3rd party systems, i-Apply can integrate with 3rd party systems either with batch interfaces (e.g. CSV/text files using predefined templates provided by Relational) or online through APIs/web services provided that that 3rd party systems expose such services. Upon the need of such integrations, an effort estimation for interfaces with 3rd party systems during the analysis phase of the project, will be provided.
+4.     Relational will deliver the Functional Specifications Document (FSD), based on a BRD documentation provided by KARAFARIN. The BRD should contain all use cases required by KARAFARIN to be included in the Project. In case the BRD includes Use Cases that are not covered by the RFP detail Requirements an additional pricing needs to be submitted to KARAFARIN for approval. 
+5.     After FSD sign-off Revaluation of infrastructure Sizing and Updated Project Plan will be provided.
+6.     Relational will commence the development of the functionality gaps, immediately after the FSD Sign Off, sizing reevaluation and project plan finalization.
+7.     KARAFARIN needs to provide the required infrastructure according to Relational’s specifications for Pre-Production, UAT and Production environments.
+8.     The UAT will be based on the test plan, test cases and test scenarios provided by KARAFARIN, while the execution of UAT scenarios will be performed by KARAFARIN users.  
+ü  Relational will support the UAT process by resolving any issue findings according to evaluation (CR, defect, task, inquiry, consulting), and criticality level (high, medium, low, stopper/blocker, out of scope).   
+ü  The defects will be resolved with priority and according to their criticality. Improvements/change requests is suggested not to be tackled during the UAT phase and to follow the change request process.
+ü  Relational has no responsibility and will not take into consideration any issues and findings of UAT that are not associated with a test case provided to Relational.
+ü  Relational will provide the operation manual in order for KARAFARIN to execute the overnight jobs according to the test scenarios requirements.
+ü  Post live support issues will be handled by the project team. Upon expiration of the Post Live Support period, Relational ‘s support center will be handling all issues according to the suggested Maintenance & Support Agreement.
+ 
+Customer obligations
+1.     Throughout project delivery, KARAFARIN will ensure the availability and involvement of the necessary resources from all areas (Business, IT) that will cooperate with Relational’s team in a timely fashion.
+2.     Based on our project plan, we have estimated a 6-week UAT per phase. In case the UAT phase is extended due to delays caused by KARAFARIN (for example delays in UAT scenario execution, resource unavailability), then we propose to enter in a time & material agreement for the remaining part of UAT.
+3.     Any imposed delays from KARAFARIN will have a respective impact on project duration and most probably on project effort and budget.
+4.     In case after the completion of WP1 Analysis Phase, the project scope has been increased due to new requirements, then Relational maintains the right to revisit the required effort and plan.
+5.     Following successful execution of UAT scenarios, Relational will communicate the deliverable to DCFU’ stakeholders for sign-off. They will have 1-week to review and provide sign-off. In case no feedback is received in this time frame, the deliverable will be deemed as accepted.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5.8  TESTING METHODOLOGY
+Relational proposes the following test methodology. 
+For each testing phase, a “Test Plan” document will be created. The structure of “Test Plan” document will be similar to this document, and the contents of each paragraph are described below.
+Note that a single test plan can be used for a software release (consisting of smaller, separate features or change requests).
+ 
+1.     Summary
+1.1.   Scope of testing
+The scope of testing needs to be clearly defined here. The plan should define items / features that are in scope or out of scope for the testing phase.
+·       Features To be tested & Reference to FRS & BRD
+All features/use cases which are to be tested, for example, management of customer contact details, account details management etc. At least FRS (functional requirements specifications) references should be used for the scope. This reference will be used in order to measure the coverage of the test cases.
+·       Features Not to be tested & Reference to FRS & BRD
+Some features may not be feasible to be tested internally by Relational. This can happen due to technical limitations, for example, some web service calls that are not exposed and cannot be accessed from Relational’s premises. This section should clearly define these features and at least FRS (functional requirements specifications) references should be used for them. This reference will be used in order to measure the coverage of the test cases.
+ 
+1.2.   Milestones
+Each testing phase should be handled as a milestone inside the project plan:
+Testing phase	Start date	End Date
+Internal testing		
+UAT testing		
+Regression testing		
+Penetration testing		
+ 
+1.3.   Deliverables
+  List down all the deliverables from the testing phase along with their acceptance criteria.
+Deliverable	Responsible for Internal testing	Responsible for UAT & Regression
+Testing (3)	Responsible for
+Penetration
+Testing (4)	Before
+Testing	During
+Testing	After Testing	Due Date
+Test Plan document	Relational	Customer/
+Relational	Customer/
+Relational (6)	X			
+Test Environment	Relational	Customer	Customer	X			
+Test Cases/Scenarios(1)	Customer/
+Relational	Customer	Customer	X			
+Test Data	Customer/
+Relational	Customer	Customer		X		
+Test Defect Reports	Relational	Customer	Customer			X	
+Test Metrics	Relational	Customer / Relational (2)	Customer		X	X	
+Test Summary Report	Relational	Customer / Relational (2)	Customer			X	
+Sign-off Document for Testing	Relational (5)	Customer	Customer			X	
+ 
+(1) Test Scenarios/Use Cases should be provided along with Business Requirements in order to be analysed and included in the proposed Functional Specifications.
+(2) Provided that the tools supporting test case management and execution tracking are provided by Relational (JIRA, TFS, Zephyr), otherwise Customer is responsible to provide the deliverables.
+(3) Relational will perform the following tasks concerning UAT and Regression testing:
+·       Relational will review the test cases/scenarios provided by the customer in order to propose any additional test cases/scenarios based on its experience from similar projects
+·       Relational will make the initial testing of the connectivity of the system with the 3rd party systems of the customer.
+·       Relational will assign a specific team comprised from business analysts and developers in order to support the customer during UAT and Regression Tests and for bug-fixing.
+(4) Relational will assign a specific team comprised from business analysts and developers in order to perform any bug-fixing for any findings of the penetration tests performed by the customer.
+(5) Relational will provide a document for proving the successful internal testing of the scenarios provided by the customer. 
+(6) Relational will assist the customer to define the execution order of the test scenarios.
+ 
+2.     Resources
+All the physical and non-physical resources that will be used for each test plan should be clearly defined.
+ 
+2.1. Environments
+Customer should provide the following three environments:
+·       QA environment for FTV & UAT testing
+·       Pre-Production environment for Regression testing.
+·       Production environment (where a Readiness Test will also take place).
+ 
+2.2. Testing tools
+Relational uses Atlassian Jira for issue management and Zephyr/TFS for test management.
+ 
+2.3. Team composition
+The responsible persons who will be involved in the testing phase, along with their roles and responsibilities should be clearly defined.
+Role	Responsible for Internal testing	Responsible for testing after delivery	Specific Responsibilities/Comments
+Test Manager	Relational	Customer	Provides management oversight
+ 
+Responsibilities:
+·       Acquire appropriate resources
+·       Oversee test plan design & execution
+·       Management reporting
+Test Designer	Relational /Customer	Customer	Identifies, and implements test cases/scenarios  Responsibilities:
+·       Generate test plan
+·       Generate Test Cases/Scenarios
+Tester	Relational	Customer	Executes the tests
+ Responsibilities:
+·       Execute tests
+·       Log results
+·       Document defects
+ 
+3.     Test Strategy
+3.1.      Types of testing 
+Below are the types of testing that will be conducted. Every one of them should have its own test plan. i.e.
+Relational – Internal testing
+·       Factory / Functional testing (FT)
+·       Regression testing
+Customer testing
+·       FTV testing
+·       UAT testing
+·       Non-Functional Testing (Performance, Penetration etc.)*
+·       Regression testing
+* Non-functional testing should be executed on customer premises with production-like hardware and topology/architectural infrastructure.
+ 
+4.     Test Planning
+4.1.      Test Schedule
+This section should be used to document the detailed test plan. This would include a detailed work breakdown structure (WBS) of all activities related to testing along with resources.
+4.2.      Test Design
+This section will document the procedure for preparing test cases and scenarios. Explain the various fields of the test cases. Moreover, describe how the documents will be shared among stakeholders.
+Test scenario is a higher-level business abstraction, of a software feature/component to be tested. For example, a test scenario could be: 
+Login and Logout functionality: In this test scenario, many test cases could be incorporated, testing login and logout feature in different situations. Below you can see an example of a test case under this specific test case:
+Test case example:
+Title: Login Page – User authenticated successfully.
+Description: A registered user should be able to successfully login.
+Precondition: the user must already be registered.
+Assumption: a supported browser is being used.
+Test Steps:
+·       Navigate to product Site
+·       In the ’Username’ field, enter the username of the registered user.
+·       Click the ‘Next’ button.
+·       Enter the password of the registered user
+·       Click ‘Log On’
+Expected Result: A page displaying the user’s inbox should load (To-Do List).
+ 
+4.3.      Test Execution
+Use this section to detail the process that will be followed for testing - how testing would be conducted, and how testing results would be captured and shared.
+ 
+5.     Defect Tracking Process
+This section will describe the process for recording defects found during the various testing cycles and the workflow for tracking these defects to closure. This section will also provide details as per the sections below.
+Note: Defects are the UAT Observations that have been identified as non-compliant with Functional Specifications.
+ 
+5.1.      Defect tracking tool
+Relational uses Atlassian Jira in combination with Zephyr for Jira or TFS for test cycle management, test execution and tracking, defect tracking and traceability to functional specifications.
+ 
+5.2.      Defect reporting
+Below the minimum fields against which information needs to be entered while reporting a defect are being presented. 
+·       Test Scenario/Case id
+·       Defect Title
+·       Defect Description
+·       Defect Priority
+·       Screenshot/s
+·       Error message/es
+·       Steps to reproduce
+5.3.      Defect lifecycle
+Default lifecycle: 
+New / Open (or Reopen) 
+--> In Progress 
+--> Completed Fixed -> Closed Fixed 
+--> Completed Dropped -> Closed Dropped
+--> Completed Duplicate -> Closed Duplicate.
+ 
+6.     Risk Management
+This section will document any risks involved in testing. Priority and impact to all risks should be assigned, i.e.
+Risk	Likelihood	Impact	Mitigation Action
+Team member lack the required skills for website testing	Med	Med	Plan training course to skill up the team
+The project schedule is too tight; it's hard to complete this project on time	High	High	Set Test Priority for each of the test activity
+Wrong budget estimate and cost overruns	Med	High	Establish the scope before beginning work, pay a lot of attention to project planning and constantly track and measure the progress
+ 
+7.     Reporting and Communication Plan
+Identify Key contact personnel from both on-site and internal teams and representatives from the client side.
+In case Jira & Zephyr will be used, detailed reporting for day-to-day execution and summary results can be provided from Relational. Otherwise, a common reporting format should be agreed.
+ 
+8.     Metrics
+The following metrics should be extracted in each test plan execution (daily and/or summary).
+Test Coverage Metrics	Number of Test Cases/ Test Scenarios: The number of Test Cases/ Test Scenarios
+	Requirements Coverage: The percentage of requirements covered by at least one Test Case. 
+The test manager monitors this KPI every day to ensure 100% test and requirements coverage.
+Test Execution Metrics	Test Execution Velocity: Number of executed Test Scenarios / Total Planned Test Scenarios. The metric is calculated both as a Grand Total and per Test Execution Day.
+	Quality Ratio: (Passed (Failed) Tests Cases / Total Number of Test Cases). 
+Based on the passed or failed rates of all the tests executed by the software testers, the quality ratio, is used as both a software testing metrics as well as a KPI.
+	Active Defects: Sum (new, in-progress or fixed defects). 
+Allows the team to take the necessary steps to rectify it. Threshold set by the team and tagged for immediate action if they are above the threshold.
+	Defects Fixed Per Day: Daily sum of fixed defects. 
+By evaluating this KPI the test manager is able to keep a track of the number of defects fixed on a daily basis to rectify these defects and issues. Moreover, it allows them to see the progress of the project as well as the testing activities.
+	Segmentation of Defects.
+Number of (a) Blocker Defects (b) Critical (c) High (d) Medium (e) Low.
+Percentage of Each Defect Segment / Total Number of Defects.  It ensures that the team and their testing efforts are focused on rectifying the critical issues and defects in the product, which in turn helps them ensure the quality of the entire testing process as well as the product.
+	Defect Resolution Success Ratio: [ (Total Number of Resolved Defects) – (Total Number of Reopened Defects) / (Total Number of Resolved Defects) ] 
+By calculating this KPI, the team of software testers can find out the number of defects resolved and reopened. If none of the defects are reopened then 100% success is achieved in terms of resolution.
+ 
+9.     Assumptions and Dependencies
+List out the assumptions and dependencies associated with this phase and any risks that may exist pertaining to these.
+ 
+5.9  TRAINING & KNOWLEDGE TRANSFER 
+Relational provides training services, adapted to the above phases based on customer needs. For example, it is common to provide hands-on training in the key-testers during the UAT preparation phase, and then formal training just before full rollout, in a “train-the-trainers” basis. Training will be provided in English language.
+The material / documentation used for the courses described above are the following:
+·       Electronic Manuals in PDF form, 
+·       Electronic slides in .ppt form and 
+·       Exercises electronic .doc form in the English language
+Prerequisites for a successful training is to have the system installed and customized so that all client personnel is trained at the actual environment they will be actually working on.
+Relational trains customer’s employees in all modules comprising i-Apply Platform Application: 
+u  Technical Administrators: They are trained in the administration module and the application (setting up users, roles, nodes, rights, codification lists, obligatory fields, visual fields, actions, reporting, etc.). They are also trained in alert situations, recognizing messages, getting support from us, handling cases, emergency situations, household procedures, panic procedures etc. The proposed training topics are the following:
+w  Creation of users and assign rights
+w  Creation of roles and nodes
+w  Define Parametrical tables and import of various external files
+w  Reporting rights
+w  Review of error Logs
+w  Interfaces and communications with other systems
+w  First level support (handling cases) and assignment procedures to the vendor
+w  Prioritization of issues and actions based on the priority
+w  Household procedures on the Server side
+w  Database Server maintenance 
+w  Application server maintenance
+w  Reporting server maintenance
+w  Security training
+w  Data Migration (data mapping, field validation, default values, gaps in data migration, manual data entry programs etc.)
+w  Log analysis and monitoring  
+w  Performance monitoring and tuning
+ 
+u  Business Administrators (Core team):  They are trained in the creation and synchronization of Products, Processes, Rules, Credit Policies, Workflows, Document Templates, Risk Policies, Scorecards & Approval limits. The proposed training topics are the following:
+w  Creation of Products and maintenance of product factory
+w  Decision engine maintenance
+w  Creation of Rules, scorecards, Credit Policies, Approval limits etc.
+w  Creation and maintenance of Document Templates
+w  Workflow definitions 
+w  Notifications and alerts setup
+w  First level support (handling cases) and assignment procedures to the vendor
+w  Prioritization of issues and actions based on the priority
+w  Generating and maintaining of various reports
+ 
+u  End Users (Trainers of trainee): Following the method of training the trainers, a team of advanced users is trained. These advanced users will train the community of the customer’s users in i-Apply. The proposed training topics are the following:
+w  Relationship Manager processing requests and forwarding to next levels
+w  Document management
+w  Evaluation procedure
+w  Interfaces
+w  Credit Risk evaluation and processes (Scoring Rating)
+w  CRM processes
+w  Search options
+w  Notifications and alerts
+w  Generating and maintaining of various reports
+ 
+The following table summarizes the proposed duration of training per participant category:
+No.	Participant Category	No. of participants	Duration
+1	Technical Administrators	10 participants	5-6 calendar days
+2	Business Administrators	10 participants	3 calendar days
+3	End Users (Trainers of trainee)	10 participants	5-6 calendar days
+ 
+The abovementioned training groups are proposed to take place in parallel.
+6     PROJECT ORGANIZATION & GOVERNANCE
+For more than fifteen years Relational has been carrying out numerous loan origination projects. As a result, a powerful and specialized team has evolved, which has a proven ability to deliver on time and on budget, regardless of project size and complexity. Thus, we undertake to assign the best and most suitable staff to the project, in all areas and at all organizational levels. The suggested structure is described below.
+ 
+6.1   THE STEERING COMMITTEE
+Monthly Steering Committee: A Group of executives/senior managers from Customer and Vendor which act as the “project board of directors”; also responsible for final review of deliverables and for resolving resource conflicts. The committee should include at least the following persons:
+u  The Customer Business Owner (or appointed person) 
+u  The Vendor Project Owner
+u  The Customer Project Manager 
+u  The Vendor Project Manager
+u  The Customer IT Owner (or appointed person)
+u  The Customer Business representatives, Operations, and UAT coordinator, as needed
+The committee will monitor the progress of the project, and will face immediately all the issues which arise from the acting teams aiming to the resolution or immediate escalation of the issue for resolution.
+ 
+Bi-Weekly steering committee 
+u  Project Managers (Customer – Vendor) 
+u  Appointed Deputy Customer Business Owner
+The meeting will face immediately all the issues which arise from the acting teams aiming to the resolution or immediate escalation of the issue for immediate resolution.
+ 
+6.2  PROJECT TEAM ROLES 
+Relational will form a project team, consisting of the following roles:
+u  Project Owner: A senior manager from Vendor, who will have the overall responsibility for the project, and will participate in the Steering Committee as needed.
+u  Project Manager: A project manager, responsible for the detailed planning and the supervision of all milestones, deadlines and deliverables associated with the project, ensuring that all deliverables are delivered on time and facilitating the acceptance procedure. The PM will handle all communications with the customer’s project team, prepare project status reports for the Customer’s PM (or directly for the Steering Committee, if requested). Relational’s PM will also define the roles, responsibilities, and relationships, and will manage all of project staff, in a day-to-day basis.
+u  Business Analysts: Experienced team members who know very well (a) the business area of their expertise (loan origination/debt collection) and, (b) the i-Apply & AroTRON functionality, able to guide the analysis team towards the Specifications Documents. After specification documents are signed off, Relational’s Business Analysts directly implement all requirements that do not involve custom development (coding). Finally, they facilitate the acceptance process. They support the customer in testing their scenarios, they fix any configuration or parameterization issues on-the-spot, and they communicate with the development team for any issues that require customization.
+u  Development team: The development team implements custom software components that are required, based on the functional specs, and then supports Vendor’s business analysts for any special issues that may arise during internal tests, and during UAT.
+The names of Relational’s key project participants are presented here below. Please note that they are indicative at this stage, as the actual synthesis of project resources will be finalized prior to project kick-off:
+ 
+Steering Committee (Indicative Synthesis) 
+u  Mr. George Tsintilas  - Project Owner (Relational)
+u  Mr. Manos Tsidarakis – Project Manager (Relational) 
+ 
+Position: Business Analysts
+u  Mrs. Aggeliki Sarantinou – Solution Architect & Business Analyst Loan Origination (Relational)
+u  Mr. Nikolaos Koliadis – Business Analyst Loan Origination (Relational)
+ 
+Position: Software Engineers 
+u  Mr. George Lytinas – Software Engineer Loan Origination (Relational)
+u  Mr. Alexandros Mantelos – Software Engineer Loan Origination (Relational)
+u  Mr. Ilias Sykourtis – Software Engineer Loan Origination (Relational)
+ 
+Please refer to section 6.4 Project Team CVs for their CVs.
+ 
+ 
+ 
+ 
+ 
+6.3  KARAFARIN’S PROJECT TEAM ROLES 
+The customer will designate the appropriate project team from their side, based on its policies and project-specific requirements. However, it is expected that the project team will include at least the following members (or equivalent roles):
+u  Customer’s Project Manager: The project manager from the customer side. It is expected that Customer’s PM will be available throughout the full project cycle, from the kick-off meeting, until the project closure.
+u  Customer’s Business Experts: One or more business people that know the requirements very well, and are authorized to discuss them with Relational and KARAFARIN answer the questions that will arise. The Business Experts should be able to act as the single contact point for each business area, and officially represent the Units/Departments involved. It is expected that they will participate in the Analysis Phase, and then continue to the UAT phase. 
+u  Customer’s Business administrators: Responsible for maintaining the parameterization of i-Apply & AroTRON, such as user profiles, product parameters, pricing, credit policies, lists of values used in data entry, etc. Business administrators must participate from the early stages of the UAT preparation phase, in order to get familiar with the product, and also to finalize the parameterization of the system, in co-operation with Vendor’s business analysts.
+u  Customer’s IT administrator: Responsible for the technical aspects of i-Apply & AroTRON administration, such as deployments, performance monitoring etc. Normally, the IT administrator also acts as the liaison between our project team and the customer’s IT.
+We propose at least one IT administrator, and at least one business administrator from each business unit. It is important to have all those team members available during the UAT preparation & UAT phase. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6.4  PROJECT TEAM CVS BASED ON RFP TEMPLATE
+ 
+Mr. Manos Tsidarakis – Project Manager
+ 
+Position; Project Manager		
+Candidate information	Name     of     candidate: 
+Manos Tsidarakis	Date of birth: 02 May 1972
+	Professional qualifications:
+·       Bachelor of Science in Computer Science
+·       Master in Business Administration
+·       9-year experience as Project Coordinator, Systems Analyst, Document Expert & Training Expert for Loan Origination projects 
+·       Deep knowledge of the loan origination, onboarding & banking business in Africa (Kenya, Uganda, Tanzania, Zambia)	
+		
+Present employment	Name of Employer: Relational Technology S.A.	
+	Address of Employer: 52, Pisistratou Str., P.O Box 17674, Kallithea, Athens Greece	
+	Telephone: +302109889300	Contact
+Mr. Ioannis Xippas
+HR Director
+	Fax: +30 210 988 1449	Email: ioannis.xippas@relationalfs.com
+	Job  title  of  candidate: 
+Technical Director	Years with present Employer: 
+9 years
+ 
+Summarize professional experience over the last twenty years, in reverse chronological order. Indicate particular technical and managerial experience relevant to the project.
+ 
+From	To	Company/Project/ Position/Relevant technical and management experience
+2013	Current	Relational Technology S.A.
+Position: Project Manager, Systems Analyst, Documentation Expert & Training Expert for the following loan origination projects:
+		·       Centenary Bank Uganda
+·       Housing Finance Kenya
+·       Mwalimu Bank Tanzania
+·       Zambia National Building Society
+·       Kenya Police SACCO
+·       Stima SACCO
+·       National Bank of Greece
+·       D-Commerce Bulgaria
+05/2005	12/2012	Epograf L.T.D.
+Position: Software Development Manager
+·       Recruited company’s workforce and arranged the appropriate distribution of roles within the production team.
+·       Managed and supervised daily activities of the technical staff. 
+·       Reviewed project plans and strategies to implement them.
+·       Negotiated contracts and managed client accounts. 
+·       Wrote sales proposals, conducted product presentations and provided technical overviews to prospective customers.
+·       Designed and deployed all technology infrastructure and architecture for the products.
+·       Utilized JAD sessions and RAD techniques to gather customers’ feedback and incorporate into product releases. 
+·       Provided consulting services to customers in order to achieve a smooth and flawless transition of their organizations to the new environment.  
+·       Engaged actively with the production process (Analysis and Design) of company products.
+·       Responsible for the production of company’s new suite of products (from concept to finished applications) consisting of the following
+§  EPOS – ERP System
+§  EPOS FASHION RS - Retail Management System 
+§  EPOS PAYROLL - Payroll System 
+§  EPOS GO (Global Ordering System) - Remote Ordering System  
+§  EPOS REPLICATOR (Database Synchronization Software) 
+Important projects undertaken include: Public Power Corporation S.A., Ministry of Labour and Social Affairs, Lapin House (Kids fashion wear manufacturer & Distributor with over 140 stores Worldwide), Ayaydin Miroglio Group, Ipekyol & Machka women’s fashion stores 8 in Greece over 150 Worldwide, Empoli Outlets discount department stores, Casa di Patsi etc.
+03/2000	04/2005	Emphasis Systems S.A
+Position: Technical Manager
+·       Reported directly to general manager.
+·       Identified, recruited and trained a group of 10 technicians and field engineers
+·       Arranged the appropriate distribution of roles within the technical team.
+·       Managed and supervised daily activities of the technical team.
+·       Supervised working conditions and quality of work of field engineers.
+·       Negotiated contracts and managed the budget for the system software and equipment (client PCs, servers, network devices, cabling etc). 
+·       Designed deployed and maintained company’s hardware, software and networking infrastructure.
+·       Ensured high database and network availability and provided instructional support to departmental software engineers and managers.
+·       Planed and applied strategies for hardware and software replacement.
+·       Wrote technical proposals and provided technical overviews to prospective customers.
+·       Responsible to design, deploy and maintain the appropriate architecture and infrastructure in order to support company’s products accordingly to each project requirements and customer needs (business subject and functions, system context, operating locations).
+Indicative list of projects: OAED (Greek Man Power Employment Organization), OPAP S.A.(Greek Organization of Football Prognostics, lottery and sports betting games), Ministry of Labour and Social Affairs, Hellenic Parliament, HEPO (Hellenic Foreign Trade Board), Geniki Bank (member of Société Générale), Klonatex Group S.A., Lobbe Tzilaliss S.A., Nutrimetics S.A., Pharmanel Pharmaceuticals S.A., Uni-Pharma Pharmaceutical Laboratories S.A., Petousis Bross S.A.(Cyprus), Elite S.A. Footwear etc.
+02/1998	03/2000	Emphasis Systems S.A.
+Position: Senior Software Engineer and Database Administrator
+·       Participated in company’s largest project (until then) consisting of 18 different software applications to meet the needs of OPAP S.A.(Greek Organization of Football Prognostics, lottery and sports betting games).
+·       Supervised activities of small development groups (2-3 persons) and provided appropriate direction and clarification.
+·       Customized and applied Zachman enterprise architecture framework.
+·       Analysis, development and maintenance of applications using Sybase  Powerdesigner 6, Powerbuilder 5 and Sybase SQL Server System 11 on Unix and NT platforms. 
+·       Responsible for revision control of all applications using Sybase Object Cycle version control interface.
+·       Ensured high database availability and documented all database updates and upgrades.
+·       Database performance monitoring and optimization.
+·       Provided technical instructional support to developers and business analysts.
+·       Prepared structured teaching guides to introduce junior developers to our programming framework.
+01/1996	02/1998	Emphasis Systems S.A.
+Position: Software Engineer
+·       Developed and maintained client-server applications using Sybase Powerbuilder 4 and Sybase SQL Server System 10 and System 11. 
+·       Maintained hardware and software of servers and clients.
+·       Customer Support and maintenance 
+·       Participated in product presentations
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ms Aggeliki Sarantinou – Business Analyst
+ 
+Position; Solution Architect & Business Analyst		
+Candidate information	Name     of     candidate: 
+Aggeliki Sarantinou	Date of birth: 19 June 1979
+	Professional qualifications:
+·       Bachelor of Science in Computer Science
+·       Master in Business Administration
+·       9-year experience as Solution Architect, Systems Analyst, Document Expert & Training Expert for Loan Origination projects 
+·       Deep knowledge of the loan origination, onboarding & banking business in Africa (Kenya, Uganda, Tanzania, Zambia)	
+		
+Present employment	Name of Employer: Relational Technology S.A.	
+	Address of Employer: 52, Pisistratou Str., P.O Box 17674, Kallithea, Athens Greece	
+	Telephone: +302109889300	Contact
+Mr. Ioannis Xippas
+HR Director
+	Fax: +30 210 988 1449	Email: ioannis.xippas@relationalfs.com
+	Job  title  of  candidate: 
+Loan Origination Technical Lead	Years with present Employer: 
+9 years
+ 
+Summarize professional experience over the last twenty years, in reverse chronological order. Indicate particular technical and managerial experience relevant to the project.
+ 
+From	To	Company/Project/ Position/Relevant technical and management experience
+09/2013	Current	Relational Technology S.A.
+Position: Solution Architect, Systems Analyst, Documentation Expert & Training Expert for the following loan origination projects:
+		·       Centenary Bank Uganda
+·       Housing Finance Kenya
+·       Mwalimu Bank Tanzania
+·       Zambia National Building Society
+·       Kenya Police SACCO
+·       Stima SACCO
+·       National Bank of Greece
+·       D-Commerce Bulgaria
+05/2005	06/2013	EPOGRAF LTD – Greece
+Position: Analyst/Senior Software Engineer
+·       Design, development and support of a Payroll Information System (EPOS Payroll) for several retail companies
+·       Participated to the production of company’s new suite of products (from concept to finished applications) consisting of the following:
+§  EPOS – ERP System
+§  EPOS FASHION RS - Retail Management System 
+§  EPOS PAYROLL - Payroll System 
+§  EPOS GO (Global Ordering System) - Remote Ordering System  
+§  EPOS REPLICATOR (Database Synchronization Software) 
+Important projects undertaken include: Public Power Corporation S.A., Ministry of Labour and Social Affairs, Lapin House (Kids fashion wear manufacturer & Distributor with over 140 stores Worldwide), Ayaydin Miroglio Group, Ipekyol & Machka women’s fashion stores 8 in Greece over 150 Worldwide, Empoli Outlets discount department stores, Casa di Patsi etc.
+04/2000	03/2005	Emphasis Systems S.A. – Greece
+Position: Senior Software Engineer
+·       Design, development and support of a Payroll Information System (Emphasis PayTime Light) for several retail companies
+·       Design, development and support the Payroll and Human Resources Information System for the Hellenic Parliament
+·       Design, development and support of a Human Resources Information System (Emphasis Pay Manager) for Ministry for the Aegean, and Ionian University 
+·       Design, development and support of a Payroll Information System. Development and maintenance of a Payroll XML Export utility used by Hellenic Ministry of Labor and Social Affairs, required by Single Payment Authority
+09/1999	03/2000	Prologic Computer Applications SA – Greece
+Position: Software Engineer
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mr. Nikolaos Koliadis – Business Analyst
+ 
+Position; Business Analyst		
+Candidate information	Name     of     candidate: 
+Nikolaos Koliadis	Date of birth: 19 January 1995
+	Professional qualifications:
+·       Bachelor of Science in Computer Science
+·       3-year experience as Business Analyst & Technical Support for Loan Origination projects 
+·       Deep knowledge of the loan origination, onboarding & banking business in Africa (Kenya, Uganda, Tanzania, Zambia)	
+		
+Present employment	Name of Employer: Relational Technology S.A.	
+	Address of Employer: 52, Pisistratou Str., P.O Box 17674, Kallithea, Athens Greece	
+	Telephone: +302109889300	Contact
+Mr. Ioannis Xippas
+HR Director
+	Fax: +30 210 988 1449	Email: ioannis.xippas@relationalfs.com
+	Job  title  of  candidate: 
+Business Analyst	Years with present Employer: 
+3 years
+ 
+Summarize professional experience over the last twenty years, in reverse chronological order. Indicate particular technical and managerial experience relevant to the project.
+ 
+From	To	Company/Project/ Position/Relevant technical and management experience
+2019	Current	Relational Technology S.A.
+Position: Business Analyst & Technical Support for the following loan origination projects:
+		·       Mwalimu Bank Tanzania
+·       Zambia National Building Society
+·       Centenary Bank Uganda
+·       Kenya Police SACCO
+·       Stima SACCO
+·       D-Commerce Bulgaria
+·       Alpha Bank Albania
+ 
+ 
+ 
+ 
+Mr. George Lytinas – Software Engineer
+ 
+Position; Software Engineer		
+Candidate information	Name     of     candidate: 
+George Lytinas	Date of birth: 21 November 1976
+	Professional qualifications:
+·       Bachelor of Science in Computer Science
+·       16-year experience as Programming Expert (system configuration, parameterization, customization) for Loan Origination projects 
+·       16-year experience in developing interfaces between the proposed loan origination solution with 3rd party systems (e.g. Credit Bureau, ERP, CRM, Card Management system, etc.)
+·       Deep knowledge of the loan origination, onboarding & banking business in Africa (Kenya, Uganda, Tanzania, Zambia)	
+		
+Present employment	Name of Employer: Relational Technology S.A.	
+	Address of Employer: 52, Pisistratou Str., P.O Box 17674, Kallithea, Athens Greece	
+	Telephone: +302109889300	Contact
+Mr. Ioannis Xippas
+HR Director
+	Fax: +30 210 988 1449	Email: ioannis.xippas@relationalfs.com
+	Job  title  of  candidate: 
+Software Engineer	Years with present Employer: 
+16,5 years
+ 
+Summarize professional experience over the last twenty years, in reverse chronological order. Indicate particular technical and managerial experience relevant to the project.
+ 
+From	To	Company/Project/ Position/Relevant technical and management experience
+08/2005	Current	Relational Technology S.A.
+Position: Software Engineer (incl. development of interfaces) for the following loan origination projects:
+·       Centenary Bank Uganda
+·       Housing Finance Kenya
+·       Mwalimu Bank Tanzania
+·       Zambia National Building Society
+·       Kenya Police SACCO
+·       Stima SACCO
+·       National Bank of Greece
+·       D-Commerce Bulgaria
+·       United Bulgaria Bank
+·       Banca Romaneasca (Romania)
+·       Vojvodaska Banka
+·       Eurobank A.D. (Serbia)
+·       Eurobank Bulgaria A.D. (Bulgaria)
+09/2004	08/2005	Hitech S.A.
+Position: Senior Software Engineer
+Open Value ERP SYSTEM - Development
+03/2003	09/2004	Vector Informatics S.A.
+Position: Senior Software Engineer
+·       Member of Design and Development team of Vector Marine Suite platform (VMS) using Centura Gupta and Java. VMS is a comprehensive, work-flow based, Maritime Asset Management and Resource Planning Software Platform. It unifies headquarters, branch offices and ships and provides the necessary infrastructure so that to run efficiently an entire shipping company. It allows for the management and control of all Financial, Technical, Quality, Documentation and Human resources aspects. 
+·       Member of developing team of Shipping Accounting Manager using Centura Gupta and Java SE
+03/2000	02/2003	Emphasis Systems S.A.
+Position: Software Engineer
+·       OpenFinancials – Development
+·       OpenERP – Design , Development
+·       ARMMA(Production Module) – Design, Development
+·       Stock Control – Design, Development
+01/1999	02/2003	ITT Goulds Pumps
+Position: Software Engineer
+·       Team member in designing and developing Pump Selection System (PSS) in Java. 
+·       Java Control Ancestors – Design, Development
+·       Novell Security - Development
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mr. Alexandros Mantelos – Software Engineer
+ 
+ 
+Position; Software Engineer		
+Candidate information	Name     of     candidate: 
+Alexandros Mantelos	Date of birth: 11 August 1974
+	Professional qualifications:
+·       Bachelor of Science in Computer Science
+·       14-year experience as Programming Expert (system configuration, parameterization, customization) for Loan Origination projects 
+·       14-year experience in developing interfaces between the proposed loan origination solution with 3rd party systems (e.g. Credit Bureau, ERP, CRM, Card Management system, etc.)
+·       Deep knowledge of the loan origination business	
+		
+Present employment	Name of Employer: Relational Technology S.A.	
+	Address of Employer: 52, Pisistratou Str., P.O Box 17674, Kallithea, Athens Greece	
+	Telephone: +302109889300	Contact
+Mr. Ioannis Xippas
+HR Director
+	Fax: +30 210 988 1449	Email: ioannis.xippas@relationalfs.com
+	Job  title  of  candidate: 
+Software Engineer	Years with present Employer: 
+14 years
+ 
+Summarize professional experience over the last twenty years, in reverse chronological order. Indicate particular technical and managerial experience relevant to the project.
+ 
+From	To	Company/Project/ Position/Relevant technical and management experience
+05/2008	Current	Relational Technology S.A.
+Position: Software Engineer (incl. development of interfaces) for the following loan origination projects:
+·       National Bank of Greece
+·       D-Commerce Bulgaria
+·       United Bulgaria Bank
+·       Banca Romaneasca (Romania)
+·       Vojvodaska Banka
+·       Eurobank A.D. (Serbia)
+·       Eurobank Bulgaria A.D. (Bulgaria)
+·       Alpha Bank Albania
+·       Alpha Bank Skopjie (FYROM)
+·       Alpha Bank Serbia
+10/2003	05/2008	KOSMON LTD
+Position: Software Engineer
+·       Web Application Development ( Web Forms, MS ASP.net , .NET Framework 2.0)
+·       Web Application Development ( MS Active Server Pages, VB Script, MS SQL Server 2000).
+·       RDBMS MS SQL Server 2000 & MS SQL Server 2005 Management. Database Maintenance.
+·       MS SQL Server 2005 Reporting Services & SSIS Packages.
+·       (TSQL on MS SQL Server 2000, Kosmon IVR CMS Script).
+·       Mobile Midlet Application Development ( Symbian OS, Java Netbeans 5.5).
+·       Customer Relationship Management Customization (MS CRM Dynamics 3.0).
+·       Management of EN ISO 9001 (TUV Austria Hellas)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mr. Ilias Sikoutris – Software Engineer
+ 
+Position; Software Engineer		
+Candidate information	Name     of     candidate: 
+Ilias Sikoutris	Date of birth: 16 September 1972
+	·       Bachelor of Science in Computer Science
+·       23-year experience as Programming Expert (system configuration, parameterization, customization) for Loan Origination & Digital Customer Onboarding projects 
+·       23-year experience in developing interfaces between the proposed loan origination solution with 3rd party systems (e.g. Credit Bureau, ERP, CRM, Card Management system, etc.)
+·       Deep knowledge of the loan origination & Digital Customer Onboarding business	
+		
+Present employment	Name of Employer: Relational Technology S.A.	
+	Address of Employer: 52, Pisistratou Str., P.O Box 17674, Kallithea, Athens Greece	
+	Telephone: +302109889300	Contact
+Mr. Ioannis Xippas
+HR Director
+	Fax: +30 210 988 1449	Email: ioannis.xippas@relationalfs.com
+	Job  title  of  candidate: 
+Software Engineer	Years with present Employer: 
+23 years
+Summarize professional experience over the last twenty years, in reverse chronological order. Indicate particular technical and managerial experience relevant to the project.
+From	To	Company/Project/ Position/Relevant technical and management experience
+1999	Current	Relational Technology S.A.
+Position: Software Engineer (incl. development of interfaces) for the following loan origination projects:
+·       National Bank of Greece
+·       D-Commerce Bulgaria
+·       United Bulgaria Bank
+·       Banca Romaneasca (Romania)
+·       Vojvodaska Banka
+·       Eurobank A.D. (Serbia)
+·       Eurobank Bulgaria A.D. (Bulgaria)
+·       Alpha Bank Albania
+·       Alpha Bank Skopjie (FYROM)
+·       Alpha Bank Serbia
+ 
+7      CUSTOMER SUPPORT & MAINTENANCE SERVICES
+7.1    SUPPORT MODEL – HELP DESK
+In general, cases may be reported over the web, by telephone or email. Depending on the support and maintenance contract between Relational and the Customer, some or all of the services described below will be available:
+u  Web Based Support 
+Relational uses a ticketing system for submission & tracking of software issues, which is based on BMC Ticket Management System. The ticketing system is used both internally during Factory Acceptance Tests and also during the User Acceptance Tests (UAT). 
+The Customer will be provided with a unique Support URL with the appropriate credentials (user ID’s and passwords) allowing incidents to be reported to Relational over the Web. Upon creation of a Support Incident, the system will issue a unique number, which will be referenced by the Customer and Relational Support staff throughout the incident resolution cycle. 
+Customer may use this Web interface to provide Relational with a description of the technical issue, attach log files, screen shots and/or any additional supporting documentation, view and monitor the resolution process and also add any comments to the issue. Relational will use this Web interface to record all actions taken by the Support staff towards the resolution of the incident, including any incident information, diagnostics, problem reproduction, work-around recommendations, solutions, request for resolution confirmation and incident closure information. 
+u  Telephone Support 
+Customer will be provided with a dedicated telephone Support line, which may be used to report incidents by phone. Relational Support staff will enter incidents reported over the phone in the Web Based Support system for further tracking. Our Support personnel are available 8X5 to receive calls, establish a support request and dispatch into the queue of the appropriate support team. Hours of Operation are negotiable and may be extended to 24X7 upon customer request. 
+u  E-mail Support 
+E-mail requests and inquiries are reviewed 8x5 by Customer Care representatives. If product support is needed, a support request (case) is established in the database and dispatched into the queue of the appropriate support team. A reply acknowledging receipt of the e-mail is directed to the customer along with the newly established tracking number.
+u  On-site Support (Call-out Service): Relational On-site Support offering is available eight hours per day during standard office hours, each day of the five-day work week (excluding published holidays). On-site Support may be initiated at the discretion of Relational and in agreement with the customer. The termination of On-site Support may take place provided the fault has been restored or before a mutually agreed improvement has been achieved.
+u  Remote Support (Troubleshooting): Relational offers the option of Remote Support for Incidents of Severity 1, provided the customer’s approval has been granted, in an attempt to accelerate the resolution process. Remote access of faulty systems will be available eight hours per day during standard office hours, each day of the five-day work week (excluding published holidays).
+Our Support personnel are available 8X5 (Greek working time, 09:00-17:00 and days) to receive calls/emails/BMC tickets, establish a support request and dispatch into the queue of the appropriate support team. Hours of Operation are negotiable and may be extended with separate agreement. 
+ 
+Two Levels of Support are provided as usual to any IT Vendor:
+u  1st Level Support: IT personnel who collect the information necessary to initiate the support process and record it in the Web Based Support system handle each support incident. The Level 1 team conducts the primary incident research and analysis including problem reproduction, wherever this may be necessary, in order to establish the nature and severity of the incident reported by Customer
+u  2nd Level Support: Technical Support uses the information gathered by Level 1 to further analyse the issue presented by the customer and provides resolutions to product-specific problems and answers, working directly with Developer/Maintenance Support, as necessary. 
+ 
+7.2   REQUEST FOR A NEW FEATURE
+When the customer has a request for a new feature after the solution has been put in production then a new Change Request should be opened by the customer in BMC.
+The business users of the customer need to describe the new Change Request and send it to Relational Support Team. Then they will assign the analysis of this CR to Relational business consultants who they have to come up with a clearly described solution to the customer within a week. The description of this solution together with a price and a delivery timeline schedule are sent back to the customer for review.
+If the customer decides to accept the Relational’s proposal then the new CR implementation is planned accordingly and it will be delivered with a new release at the specified time. 
+ 
+7.3   INCIDENT MANAGEMENT AND SLA
+ 
+Severity Levels of Issues:
+Priority	Description
+1	Critical Service Impact
+Case critically affects the primary business service, major application, or mission critical system. Customer resources should be available and willing to work on during the support hours with the Supplier to resolve the case. Characteristics of a Severity 1 case include:
+·       Business service is not operational
+·       Production system crashes
+·       Data integrity at risk
+·       Production recovery operations fail
+·       Security Breach
+2	Significant Service or Implementation Impact 
+Issues that cause partial loss of a critical business of the Software limiting the complete use of the Software’s functionalities and impacting the Customer’s ability to run their business if not resolved promptly (no workaround is available).
+3	Moderate Service Impact
+The business service, major application, or system is moderately impacted, no data has been lost, and the business service, application, or system is still functioning. The case may be temporarily circumvented using an available workaround.
+4	No Service Impact
+Non-critical cases, general questions, enhancement requests, or documentation cases
+ 
+HELPDESK SUPPORT LEVELS:
+1st Level Support 
+The 1st Level Support serves as the first point of customer contact for all support requests via the web, telephone or email. They will obtain initial information and record it in the Relational Customer Support database. 
+The 1st Level Support team is situated in Greece consisting of multilingual support staff. This level of support is specialized by product and is responsible for bringing the issue to closure. As the first point of contact with the customer, members of this team will perform the following tasks: 
+u  Gather and record the incident initial information 
+u  Assist the customer with product installation and related questions 
+u  Run together with the customer all necessary diagnostic tests and assess objectively the technical nature, severity and business impact of the incident 
+u  Perform primary incident research and problem reproduction 
+u  Provide the customer with known solutions and/or workarounds and resolutions 
+u  Escalate incidents to 2nd Level Support (Developer/Maintenance Support) 
+u  Liaise and act as a communication bridge between the customer and 2nd Level Technicians 
+u  Escalate customer calls to the appropriate support team or management 
+ 
+2nd Level Support (Developer / Maintenance Support – Relational Greece) 
+Developer/Maintenance Support provides detailed problem analysis and develops workarounds, fixes, and resolutions. Developer Support also ensures that resolutions are included in the new release of products. Developer Support personnel are part of the development team and consist of multilingual staff. They are responsible for assisting Technical Support personnel by providing product expertise and resolution of an issue. Their responsibilities include:
+u  Consulting with 1st Level Technical Support
+u  Performing detailed problem analysis
+u  Developing workarounds or resolutions
+u  Ensuring that resolutions are included in new releases of the product 
+ 
+SLAs Response Time 
+Parameter	Value
+Support Hours (1)	Basic Support Hours
+Weekdays: 09:00 – 17:00 From Monday to Friday
+Incident Response Time (2)	
+Priority 1	4 working hours
+Priority 2	8 working hours
+Priority 3	2 business days (16 working hours)
+Priority 4	3 business days (24 working hours)
+Security Breach	4 working hours
+Incident Recovery Time (3)	
+Priority 1	Provided that the issue is not caused by components out of the scope of the project, in which case it is not the responsibility of the Supplier to provide a resolution, then:
+Finding of (i) the solution to remedy the Problem or (ii) an alternative workaround with an elaboration of an action plan for the final detection of unknown causes: 8 working hours
+Final remedy to the Problem (System is Operational): Emergency Release
+Priority 2	Provided that the issue is not caused by components out of the scope of Annex 1, in which case it is not the responsibility of the Supplier to provide a resolution, then:
+Finding of (i) the solution to remedy the Problem or (ii) an alternative workaround, with an elaboration of an action plan for the final detection of unknown causes: 16 working hours 
+Final remedy to the Problem (System is Operational): Emergency Release
+Priority 3	Final Remedy or Interim workaround(*) to the Problem: 7 Business Days
+(*) A shortcut is needed to continue the system work, solution is required in the next release.
+Priority 4	Final Remedy or Interim workaround(*) to the Problem: 15 Business Days
+(*) A shortcut is needed to continue the system work, solution is required in the next release.
+Security Breach	Provided that the issue is not caused by components out of the scope of Annex 1, in which case it is not the responsibility of the Supplier to provide a resolution, then:
+Finding of (i) the solution to remedy the Problem or (ii) an alternative workaround with an elaboration of an action plan for the final detection of unknown causes: 8 working hours
+Final remedy to the Problem (System is Operational): Emergency Release
+SLA Review Frequency	Annually
+ 
+ 
+ 
+ 
+ 
+7.4  RELEASE MANAGEMENT
+The process for new product development with regard to requirements from our customers’ users and rolling out new releases is presented below:
+Requirements from our customers’ users are being captured:
+u  during project implementation 
+u  during operational support of our installations
+Requirements are initially put down in BMC Ticket Management Tool, where our major customers are granted access to, and upon agreement, they are detailed into “issues” (most prominently divided into “epics” and “stories”).
+Development (technical) issues are being derived from epics and stories, and are organized in our internal projects for access to our development team.
+i-Apply IS based on single code line development. Various teams specializing in sub-modules collaborate in all product development phases, using our implementation tools. Agile methodologies are being followed, organizing bulks of issues into “sprints” for immediate implementation, usually spanning over two working weeks’ period. New (minor) versions are usually available on a standard basis ranging from 4 to 7 per year. 
+Following our automated daily build process, a specific full product build is selected as the release candidate, to go through the designated test plans (Factory Test Verification). On success, the release is being prepared, accompanied with automatically generated release notes, deployment instructions and updated documentation if required.
+Apart from standard product-line releases, specialized releases may be scheduled, to meet major project implementation timelines. These releases are promoted to the customer’s site for UAT and sign-off.
+A key point for each new release is to go through ‘staging’ phase, i.e. be gradually deployed to subsets of end users for use against production data, minimizing the risk of one-step switchover. Adequate support to our customers through this phase is provided by our specialized teams.
+Relational publishes release schedules. New releases take place as follows:
+u  1 Major annual product upgrade / release
+u  4 Minor annual product upgrades / releases
+Due to the agility of i-Apply, it is possible for a customer to request and get upgrades / enhancements according to specific needs.
+Software license upgrades are available to clients who have a valid support contract. For Clients without a valid support contract, software upgrades will be accompanied by upgrade fees, accordingly.
+ 
+ 
+ 
+7.5   VERSION MANAGEMENT
+Relational is always committed to support two versions of i-Apply, the current and the previous one. At the moment, the current version of i-Apply is v.12.
+New Versions are available to customers on a 5-year cycle.
+The customers get a two-year notice when an old version is going to be stopped being supported and a one-year warning.
+New versions are announced two years before they are actually rolled out.
+ 
+i-Apply Major Versions are available on a yearly base.
+i-Apply’s official versioning is in the for M.N.x where M is the Long-term Platform Version, N is the yearly Major Version and x is the order of Release within the year, typically taking the values 1 to 4.
+Currently, i-Apply Product Development Lifecycle consists of four (4) Annual Releases, accompanied by adequate release documentation including: 
+-       Release Notes
+-       Installation Guide
+-       User’s and Administration Guide
+-       Platform’s Component Compatibility Matrix 
+Relational is committed to supporting at least two major versions of i-Apply, the current and the previous one. At the moment, the current version of i-Apply is 12.1.1. Subsequently, the supported versions are for i-Apply 11.9.x and 11.8.x. 
+The customers get a heads-up notice when an old version is going to be stopped being supported, along with a timely warning to prepare for Migration to a supported version.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
